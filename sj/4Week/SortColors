@@ -1,0 +1,34 @@
+class Solution {
+    public void sortColors(int[] nums) {
+        
+        //배열의 끝
+        int end = nums.length-1;
+        //배열 시작
+        int start =0;
+        
+        for(int i=0; i<=end; i++)
+        {
+            System.out.println(i);
+            //배열안의 숫자가 0이면
+            if(nums[i] == 0)
+            {
+                //왼쪽으로 맨 왼쪽부터 하나씩이동
+                swap(nums, i, start++);
+            }
+            // 2면 오른쪽으로 이동해야되는데
+            else if(nums[i] == 2)
+            {
+                //2는 맨 오른쪽이랑 위치를 바꾼후에 한번더 다시 확인해야되니까 i를 마이너스 시켜줘서 다시 검색하도록 
+                swap(nums, i--, end--);
+            }
+        }
+    }
+    
+    public void swap(int[] nums, int a, int b)
+    {
+        int temp = nums[a];
+        nums[a] = nums[b];
+        nums[b] = temp;
+        
+    }
+}
