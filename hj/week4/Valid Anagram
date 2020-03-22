@@ -1,0 +1,66 @@
+class Solution {
+    public boolean isAnagram(String s, String t) {
+        
+        boolean result = true;
+        
+        List tList = new ArrayList<>();
+        
+        for(int i = 0; i< t.length(); i++) { 
+            tList.add(t.substring(i,i+1));
+            
+        }
+        
+        
+        for(int i = 0; i< s.length(); i++) {
+            
+            String a = s.substring(i,i+1);
+            
+            for(int j = 0; j<tList.size(); j++) {
+                if(a.equals(tList.get(j))) {
+                    tList.remove(j);
+                    break;
+                }
+            }
+            
+            if(i != s.length()-1 && tList.size() == 0)
+            {
+                result = false;
+                break;
+            }
+        }
+        
+        if(result && tList.size() == 0) {
+            result = true;
+        } else {
+            result = false;
+        }
+                       
+        return result;
+    }
+}
+
+public class MainClass {
+    public static String stringToString(String input) {
+        return JsonArray.readFrom("[" + input + "]").get(0).asString();
+    }
+    
+    public static String booleanToString(boolean input) {
+        return input ? "True" : "False";
+    }
+    
+    public static void main(String[] args) throws IOException {
+        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        String line;
+        while ((line = in.readLine()) != null) {
+            String s = stringToString(line);
+            line = in.readLine();
+            String t = stringToString(line);
+            
+            boolean ret = new Solution().isAnagram(s, t);
+            
+            String out = booleanToString(ret);
+            
+            System.out.print(out);
+        }
+    }
+}
