@@ -1,0 +1,187 @@
+/* -----------------------------------
+ *  WARNING:
+ * -----------------------------------
+ *  Your code may fail to compile
+ *  because it contains public class
+ *  declarations.
+ *  To fix this, please remove the
+ *  "public" keyword from your class
+ *  declarations.
+ */
+
+class Solution {
+    public String sortString(String s) {
+        String result = "";
+        
+        char[] ch = new char[s.length()];
+        
+        List charList = new ArrayList();
+
+        for (int i = 0; i < s.length(); i++) { 
+            ch[i] = s.charAt(i); 
+        }
+        
+        ch = sortChar(ch);
+        
+        char a = ch[0];
+        boolean type = true;
+        
+        result += ch[0];
+        
+        ch = makeChar(ch, 0);
+        
+        int g = 0;
+        while(ch.length > 0) {
+            g++;
+            char b = a;
+            
+            if(type == true) {                     
+                for(int i = 0; i < ch.length; i++) {
+                    if(a < ch[i])
+                    {
+                        result += ch[i];
+                        a = ch[i];
+                        ch = makeChar(ch, i);
+                        break;
+                    }
+                                       
+                }        
+                if(b== a)
+                {
+                    result += ch[ch.length-1];
+                    a = ch[ch.length-1];
+                    ch = makeChar(ch, ch.length-1);                        
+                    type = false;    
+                }
+            } else {
+                for(int i = ch.length-1; i > 0; i--) {                    
+                    if(a > ch[i])
+                    {                        
+                        result += ch[i];
+                        a = ch[i];
+                        ch = makeChar(ch, i);                        
+                        break;
+                    }                    
+                }
+                
+                if(b== a)
+                    {
+                        result += ch[0];
+                        a = ch[0];
+                        ch = makeChar(ch, 0);                        
+                        type = true;    
+                    }
+            }
+            
+            
+            
+            
+        }
+        
+        
+        
+    
+        for(int z = 0; z < ch.length; z++){
+            System.out.println(ch[z]);
+        }
+        
+        
+        
+        
+        
+                
+        
+        return result;
+        
+    }
+    
+    
+    
+    
+    public char[] makeChar(char[] ch, int i) {
+        
+        char[] reCh = new char[ch.length-1];
+        
+        for(int z=0; z<i; z++) {            
+            reCh[z] = ch[z];
+        }
+        
+        for(int z=i; z<ch.length-1; z++) {            
+            reCh[z] = ch[z+1];                    
+        }
+               
+        
+        return reCh;
+        
+    }
+    
+    
+    
+    public char[] sortChar(char[] ch) {
+        
+        int i, j;
+        char dummy;
+        
+        for(i=1; i<ch.length;i++)
+        {
+            dummy = ch[i];
+            j = i;
+            
+            while(ch[j-1] > dummy && j > 0) {
+                ch[j] = ch[j-1];
+                j--;
+                
+                if(j==0)
+				{
+					break;
+				}
+            }
+            
+            ch[j] = dummy;
+        }
+        
+        
+        return ch;
+        
+    }
+}
+
+public class MainClass {
+    public static String stringToString(String input) {
+        return JsonArray.readFrom("[" + input + "]").get(0).asString();
+    }
+    
+    public static void main(String[] args) throws IOException {
+        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        String line;
+        while ((line = in.readLine()) != null) {
+            String s = stringToString(line);
+            
+            String ret = new Solution().sortString(s);
+            
+            String out = (ret);
+            
+            System.out.print(out);
+        }
+    }
+}
+
+public class MainClass {
+    public static String stringToString(String input) {
+        return JsonArray.readFrom("[" + input + "]").get(0).asString();
+    }
+    
+    public static void main(String[] args) throws IOException {
+        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        String line;
+        while ((line = in.readLine()) != null) {
+            String s = stringToString(line);
+            
+            String ret = new Solution().sortString(s);
+            
+            String out = (ret);
+            
+            System.out.print(out);
+        }
+    }
+}
