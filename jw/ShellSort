@@ -1,0 +1,31 @@
+package sort;
+
+public class ShellSort {
+    public static void main(String[] args) {
+        int[] test = {5,4,3,2,1};
+        int[] result = sort(test);
+        for(int i : result) {
+            System.out.println(i);
+        }
+    }
+
+    public static int[] sort(int[] unSortedArray) {
+        int size = unSortedArray.length;
+        int target,shell;
+        // Initialize Maximum Shell Size
+        for(shell= 0 ; shell < size ; shell = 3*shell+1 );
+        for(;shell>0;shell /= 3) {
+            for(int i=shell;i<size;i++) {
+                target = unSortedArray[i];
+                int j= i;
+                while(j >= shell && unSortedArray[j - shell] > target) {
+                    unSortedArray[j] = unSortedArray[j-shell];
+                    j -= shell;
+                }
+                unSortedArray[j] = target;
+            }
+        }
+
+        return unSortedArray;
+    }
+}
