@@ -1,0 +1,22 @@
+class Solution {
+    public void sortColors(int[] nums) {
+        int[] cal = new int[3];
+        for(int tmp : nums ) {
+            cal[tmp] += 1;
+        }
+        int i=0;
+        int cnt = 0;
+        while(true) {
+            
+            if(cal[0] == 0 && cal[1] == 0 && cal[2] == 0) {
+                break;
+            } else {
+                for(int j=0;j<cal[i];j++) {
+                    nums[cnt++] = i;
+                }
+                cal[i] = 0;
+            }
+            i++;
+        }
+    }
+}
