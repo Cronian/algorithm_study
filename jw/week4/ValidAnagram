@@ -1,0 +1,27 @@
+class Solution {
+    public boolean isAnagram(String s, String t) {
+        char[] arr1 = s.toCharArray();
+        char[] arr2 = t.toCharArray();
+        int[] result = new int[26];
+        if(arr1.length != arr2.length) {
+            return false;
+        }
+        int size = arr1.length;
+        for(int i=0;i<size;i++) {
+            int t1 = ((int) arr1[i]) - 97;
+            int t2 = ((int) arr2[i]) - 97;
+            result[t1] += 1;
+            result[t2] -= 1;
+        }
+        
+        for(int i : result) {
+            if(i != 0) {
+                return false;
+            }
+        }
+        
+        return true;
+        
+    }
+    
+}
