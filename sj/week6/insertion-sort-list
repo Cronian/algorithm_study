@@ -1,0 +1,70 @@
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public ListNode insertionSortList(ListNode head) {
+        
+        //결과로 받을 리스트 헤드
+        ListNode result = null;
+        // 헤드 만든다고 값 넣으면 안됨
+        // 값 넣으면 그거 추가되서 에러남 ㅎ..;
+        
+        while(head != null)
+        {
+            result = Order(result, head.val);
+            head= head.next;
+        }
+        
+        return result;
+        
+    }
+    
+    public ListNode Order(ListNode node, int val)
+    {
+        //현재 값의 노드 
+        ListNode now = new ListNode(val);
+        
+        ListNode head = node;
+        ListNode prev = null;
+        
+        if(node == null)
+        {
+            return now;
+        }
+        
+        //node가 null아니고 값이 작을 때
+        while(node != null && node.val < val)
+        {
+            //이전 상태 저장
+            prev = node;
+            //한칸 이동
+            node = node.next;
+        }
+        
+        //prev가 있다는건 위 조건을 만족했다는 소리
+        if(prev != null)
+        {
+            //이전 노드의 값을 지금 넣은 값으로 만든 리스트와 연결
+            prev.next = now;
+            //현재 node는 기존의 node의 다음 값이니 새로 삽입된 리스트 다음으에 연결
+            now.next = node; 
+            
+            return head;
+        }
+        //조건에 안맞으면
+        else
+        {
+            //가운데 삽입해주는게 아니라 뒤에 그냥 붙여줌
+            prev = now;
+            prev.next = node;
+            
+            return prev;
+         }
+        
+    }
+}
