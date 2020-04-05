@@ -1,0 +1,73 @@
+class Solution {
+    public int[] intersect(int[] nums1, int[] nums2) {
+        
+        //처음부터 배열로 할라니까 크기가 몇인지 모른다..
+        List<Integer> temp = new ArrayList<>();
+        
+        // 테스트 케이스 중에 [] [], 처럼 빈 값주는 테스트케이스가 있음
+        if(nums1.length != 0 && nums2.length != 0)
+        {
+           quicksort(nums1, 0, nums1.length-1);
+        
+           quicksort(nums2, 0, nums2.length-1);
+        }
+        
+        int length = 0;
+        
+        int i=0 ,j =0;
+        
+        while (i<nums1.length && j < nums2.length)
+        {
+            // 값이 같으면
+            if(nums1[i] == nums2[j])
+            {
+                //리스트에 추가
+                temp.add(nums2[j]);
+                i++;
+                j++;
+            }
+            else if (nums1[i] > nums2[j]) {
+                j++;
+            } 
+            else
+            {
+         
+                i++;
+            }
+        }
+        
+        // list 사이즈로 배열 선언
+        int[] result = new int[temp.size()];
+        
+        for(int k = 0;k<temp.size(); k++)
+        {
+            // 안에 순서대로 배열에 넣음
+            result[k] = temp.get(k);
+        }
+        
+        return result;
+        
+    }
+    
+    public void quicksort(int[] data , int l, int r)
+    {
+        int left = l;
+        int right = r;
+        int pivot = data[(l+r)/2];
+        do{
+            while(data[left] < pivot) left++;
+            while(data[right] > pivot) right--;
+            if(left <= right){    
+                int temp = data[left];
+                data[left] = data[right];
+                data[right] = temp;
+                left++;
+                right--;
+            }
+        }while (left <= right);
+        
+        if(l < right) quicksort(data, l, right);
+        if(r > left) quicksort(data, left, r);
+        
+    }
+}
