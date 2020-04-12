@@ -1,0 +1,83 @@
+class Solution {
+    public static int[] temp;
+        
+    public int largestPerimeter(int[] A) {
+        
+        temp = new int[A.length];
+        
+        mergeSort(A, 0, A.length-1);
+        
+        int max = 0;
+        int min1 = 0;
+        int min2 = 0;
+        
+        for(int i=0; i<A.length-2; i++) {
+            max=A[i];
+            min1 = A[i+1];
+            min2 = A[i+2];
+            
+            if(max < min1 + min2) {
+                return max + min1 + min2;
+            }
+        }
+        return 0;
+    }
+    
+    
+    public void mergeSort(int[] A, int start, int end) {
+        if(start < end) {
+            int mid = (start + end) / 2;
+            mergeSort(A, start, mid);
+            mergeSort(A, mid+1, end);
+            
+            int p = start;
+            int q = mid + 1;
+            int idx = p;
+            
+            while(p<=mid || q<=end) {
+                if (q > end || (p<=mid && A[q] < A[p])) {
+                    temp[idx++] = A[p++];
+                } else {
+                    temp[idx++] = A[q++];                    
+                }                
+            }
+            
+            for(int i = start; i <= end; i++) {
+                A[i] = temp[i];
+            }
+        }
+        
+    }
+}
+
+public class MainClass {
+    public static int[] stringToIntegerArray(String input) {
+        input = input.trim();
+        input = input.substring(1, input.length() - 1);
+        if (input.length() == 0) {
+          return new int[0];
+        }
+    
+        String[] parts = input.split(",");
+        int[] output = new int[parts.length];
+        for(int index = 0; index < parts.length; index++) {
+            String part = parts[index].trim();
+            output[index] = Integer.parseInt(part);
+        }
+        return output;
+    }
+    
+    public static void main(String[] args) throws IOException {
+        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        String line;
+        while ((line = in.readLine()) != null) {
+            int[] A = stringToIntegerArray(line);
+            
+            int ret = new Solution().largestPerimeter(A);
+            
+            String out = String.valueOf(ret);
+            
+            System.out.print(out);
+        }
+    }
+}
