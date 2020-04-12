@@ -1,0 +1,48 @@
+class Solution {
+    
+    public int largestPerimeter(int[] A) {
+        
+        mergeSort(A, 0, A.length-1);
+        //Arrays.sort(A);
+		//System.out.println(Arrays.toString(A));
+        
+        for(int i = A.length - 1; i >= 2; i--)
+        {
+            if(A[i-2] + A[i-1]>A[i])
+            {
+                return A[i-2] + A[i-1]+A[i];
+            }
+        }
+        return 0;
+    }
+    
+    public static void mergeSort(int data[], int left, int right)
+    { 
+        if(left < right)
+        { 
+            int mid = (left+right)/2; 
+            mergeSort(data, left, mid);
+            mergeSort(data, mid+1, right);
+            merge(data, left, mid, right);
+        } 
+    } 
+    
+    public static void merge(int data[], int left, int mid, int right)
+    { 
+        int i=left, j=mid+1, k=left;
+        int tmp[] = new int[data.length];
+        while(i<=mid && j<=right)
+        {
+            if(data[i]<=data[j]) tmp[k++]=data[i++];
+            else tmp[k++]=data[j++]; 
+        } 
+        
+        while(i<=mid) tmp[k++] = data[i++]; 
+        
+        while(j<=right) tmp[k++] = data[j++]; 
+        
+        for(i=left; i<=right; i++) data[i] = tmp[i]; 
+    }
+    
+    
+}
