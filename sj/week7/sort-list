@@ -1,0 +1,111 @@
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    
+    
+    public ListNode sortList(ListNode head) {
+        
+        int len = 0;
+        
+        
+        ListNode temp = head;
+        
+        // 배열 크기 알아내야함
+        while(temp != null)
+        {
+            len++;
+            temp = temp.next;
+        }
+        
+        int[] arr = new int[len];
+        
+        temp = head;
+        len = 0;
+        
+        // 배열에다가 값 넣어줌
+        while(temp != null)
+        {
+            arr[len++] = temp.val;
+            temp = temp.next;
+        }
+        
+        // 힙정렬
+        heapSort(arr);
+        
+        temp = null;
+        
+        temp = new ListNode(0);
+        
+        ListNode result = temp;
+        
+        // 새로운 리스트 만들어서 정렬된 값으로 넣어줌
+        for(int i =0; i<arr.length; i++)
+        {
+            ListNode v = new ListNode(arr[i]);
+            
+            temp.next = v;
+                 
+            temp = temp.next;
+            
+        }
+        
+        // 더미 헤더에 0들어가있어서 next부터 저장
+        head = result.next;
+        
+        return head;
+        
+    }
+    
+    public void heapSort(int[] arr){
+        
+        int arrLength = arr.length;
+        
+        for(int i = (arrLength-1)/2; i >= 0; i--)
+        {
+            heapify(arr, arrLength, i);
+        }
+        
+        for(int i = arrLength-1; i >= 0; i--){
+            
+            swap(arr, i, 0);
+            
+            heapify(arr, i, 0);
+        }
+    }
+    
+    public void heapify(int[] numArr, int index, int i){
+       
+        int root = i;
+        int leftChild = 2*i + 1;
+        int righChild = 2*i + 2;
+        
+        if(leftChild < index && numArr[leftChild] > numArr[root])
+            root = leftChild;
+        
+        if(righChild < index && numArr[righChild] > numArr[root])
+            root = righChild;
+        
+        if(root != i){
+            swap(numArr, root, i);
+            heapify(numArr, index, root);
+        }
+    }
+    
+    public void swap(int[] numArr, int index, int li)
+    {
+        
+        int temp = numArr[li];
+        
+        numArr[li] = numArr[index];
+        
+        numArr[index] = temp;
+    }
+
+    
+}
