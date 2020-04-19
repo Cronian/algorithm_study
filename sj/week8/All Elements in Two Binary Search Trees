@@ -1,0 +1,80 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public List<Integer> getAllElements(TreeNode root1, TreeNode root2) {
+        
+        
+        List<Integer> l1 = treeTolist(root1);
+        List<Integer> l2 = treeTolist(root2);
+     
+        List<Integer> result = new ArrayList(l1.size() + l2.size());
+        
+        result.addAll(l1);
+        result.addAll(l2);
+        
+        int[] array = new int[l1.size()+l2.size()];
+        
+        for(int i=0; i<result.size(); i++)
+        {
+            array[i] = result.get(i);
+        }
+        result.clear();
+        
+        quicksort(array, 0, array.length-1);
+        
+        for(int i=0; i<array.length; i++)
+        {
+            result.add(array[i]);
+        }
+        
+        return result;
+    }
+    
+    private List<Integer> treeTolist(TreeNode root) {
+        Stack<TreeNode> st = new Stack();
+        TreeNode c = root;
+        List<Integer> l = new ArrayList();
+        
+        while (c != null || !st.isEmpty()) {
+            while (c != null) {
+                st.push(c);
+                c = c.left;
+            }
+            c = st.pop();
+            l.add(c.val);
+            c = c.right;
+        }
+        
+        return l;
+    }
+    
+     public void quicksort(int[] data , int l, int r)
+    {
+        int left = l;
+        int right = r;
+        int pivot = data[(l+r)/2];
+        do{
+            while(data[left] < pivot) left++;
+            while(data[right] > pivot) right--;
+            if(left <= right){    
+                int temp = data[left];
+                data[left] = data[right];
+                data[right] = temp;
+                left++;
+                right--;
+            }
+        }while (left <= right);
+        
+        if(l < right) quicksort(data, l, right);
+        if(r > left) quicksort(data, left, r);
+        
+    }
+        
+}
