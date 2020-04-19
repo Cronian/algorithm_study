@@ -1,0 +1,68 @@
+class Solution {
+    public List<Integer> minSubsequence(int[] nums) {
+        
+        
+        
+        List<Integer> result = new ArrayList();
+        List<Integer> temp = new ArrayList();
+        
+        int sum = 0;
+        int a=0;
+        
+        if(nums.length==1){
+            result.add(nums[0]);
+            return result;
+        }
+        
+        quicksort(nums, 0, nums.length-1);
+        
+        for(int num : nums)
+        {
+            sum += num;
+            temp.add(num);
+        }
+        
+        for(int num : temp)
+        {
+            int tmp = num;
+            
+            result.add(tmp);
+         
+            sum -= tmp;
+            
+            a += tmp;
+                
+            
+            if(a>sum)
+            {
+                break;
+            }
+            
+        }
+        
+        return result;
+        
+    }
+    
+    public void quicksort(int[] data , int l, int r)
+    {
+        int left = l;
+        int right = r;
+        int pivot = data[(l+r)/2];
+        do{
+            while(data[left] > pivot) left++;
+            while(data[right] < pivot) right--;
+            if(left <= right){    
+                int temp = data[left];
+                data[left] = data[right];
+                data[right] = temp;
+                left++;
+                right--;
+            }
+        }while (left <= right);
+        
+        if(l < right) quicksort(data, l, right);
+        if(r > left) quicksort(data, left, r);
+        
+    }
+}
