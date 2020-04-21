@@ -15,57 +15,53 @@
 
 - 향상된 정렬 정리하기 
 - 향상된 정렬을 사용하여 문제풀기
-[[Easy] Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/)
-[[Medium] All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)
+ [[Easy] Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/)
+ [[Medium] All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)
 
 ## Week 7
 
 - 알고리즘 문제 풀이 전략 7챕터(3강 / 합병정렬  4강 / 힙정렬 ) 읽어오기 ( 향상된 정렬 )
-[[Easy] Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)
-[[Medium] Sort List](https://leetcode.com/problems/sort-list/)
+ [[Easy] Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)
+ [[Medium] Sort List](https://leetcode.com/problems/sort-list/)
 
 ## Week 6
 
 - 퀵정렬, 기수정렬 다시 한번 복습하기!
-[[Medium] Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)
-[[Easy] Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
+ [[Medium] Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)
+ [[Easy] Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
 
 ## Week 5
 
 - 알고리즘 문제 풀이 전략 7챕터(1강 / 퀵정렬  2강 / 기수정렬 ) 읽어오기 ( 향상된 정렬 )
 - 앞에서 한 기본정렬 장점 / 단점 정리해오기 
- 
- [[Easy] Squares of a Sorted Array ](https://leetcode.com/problems/squares-of-a-sorted-array/)
- [[Easy] Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+  [[Easy] Squares of a Sorted Array ](https://leetcode.com/problems/squares-of-a-sorted-array/)
+  [[Easy] Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 
 ## Week 4
 
 - 알고리즘 문제 풀이 전략 6챕터 읽어오기 ( 기본정렬 )
 - 기본정렬 직접 구현해보기 ( Java 파일로 만들어 업로드 )
-[[Easy] increasing-decreasing-string](https://leetcode.com/problems/increasing-decreasing-string/)
-[[Easy] valid-anagram](https://leetcode.com/problems/valid-anagram/)
-[[Medium] sort-colors](https://leetcode.com/problems/sort-colors/)
+ [[Easy] increasing-decreasing-string](https://leetcode.com/problems/increasing-decreasing-string/)
+ [[Easy] valid-anagram](https://leetcode.com/problems/valid-anagram/)
+ [[Medium] sort-colors](https://leetcode.com/problems/sort-colors/)
 
 ## Week 3
 
 - 알고리즘 문제 풀이 전략 5챕터 읽어오기 ( 트리응용 )
-[[Medium] unique-binary-search-trees](https://leetcode.com/problems/unique-binary-search-trees/)
-[[Easy] same-tree](https://leetcode.com/problems/same-tree/)
-
+ [[Medium] unique-binary-search-trees](https://leetcode.com/problems/unique-binary-search-trees/)
+ [[Easy] same-tree](https://leetcode.com/problems/same-tree/)
 
 ## Week 2
 
 - 알고리즘 문제 풀이 전략 4챕터 읽어오기 ( 트리 )
-[[Medium] queue-reconstruction-by-height](https://leetcode.com/problems/queue-reconstruction-by-height/)
-[[Easy] symmetric-tree](https://leetcode.com/problems/symmetric-tree/)
-
+ [[Medium] queue-reconstruction-by-height](https://leetcode.com/problems/queue-reconstruction-by-height/)
+ [[Easy] symmetric-tree](https://leetcode.com/problems/symmetric-tree/)
 
 ## Week 1
 
 - 알고리즘 문제 풀이 전략 3챕터 읽어오기 ( 링크드리스트 / 큐 / 스택 )
 - 여력이 되면 1,2챕터도 읽어보기
-[[Medium] add-two-numbers](https://leetcode.com/problems/add-two-numbers/)
-[[Easy] valid-parentheses](https://leetcode.com/problems/valid-parentheses/)
-
+ [[Medium] add-two-numbers](https://leetcode.com/problems/add-two-numbers/)
+ [[Easy] valid-parentheses](https://leetcode.com/problems/valid-parentheses/)
 - 스터디중 풀어본 문제
-[[Easy] convert-binary-number-in-a-linked-list-to-integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
+ [[Easy] convert-binary-number-in-a-linked-list-to-integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
