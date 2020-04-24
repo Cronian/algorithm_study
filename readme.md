@@ -13,8 +13,7 @@
   > 시간제한 엄수. 제한시간 초과 후 각자 코드 리뷰 및 설명 진행
 
 ## Week 9
-- 해쉬 내용 보기
-- [[Medium] subarray-sum-equals-k](https://leetcode.com/problems/subarray-sum-equals-k/)
+- 이진 탐색 내용보기
 
 
 ## Week 8
