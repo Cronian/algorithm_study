@@ -1,0 +1,28 @@
+class Solution {
+    public boolean uniqueOccurrences(int[] arr) {
+        
+        // (해당숫자, 갯수)
+        HashMap<Integer, Integer> map = new HashMap<>();
+        
+        //마지막에 갯수만 담을꺼
+        HashSet<Integer> set = new HashSet<>();
+        
+        for(int n : arr){
+            if(map.containsKey(n)){
+                map.put(n, map.get(n) + 1);
+            }
+            else{
+                map.put(n, 1);
+            }
+        }
+        
+        //set은 중복값 알아서 안들어감
+        for(int n : map.values()) {
+            
+			set.add(n);
+		}
+        
+        //해쉬의 갯수랑 셋의 갯수가 같으면 t 아니면 중북된게 제거됬다는 소리니까 f
+        return map.size() == set.size() ? true : false;
+    }
+}
