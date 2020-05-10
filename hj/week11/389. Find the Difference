@@ -1,0 +1,70 @@
+class Solution {
+    public char findTheDifference(String s, String t) {
+        
+        String result = "";
+        
+
+        HashMap<String, Integer> map = new HashMap<String, Integer>();
+        
+        
+        
+        for(int i = 0; i < t.length(); i++) {            
+            String str = t.substring(i,i+1);
+            int cnt = (map.get(str) != null)? map.get(str)+1 : 1;
+            map.put(str, cnt);
+        }
+        
+        
+        for(int i = 0; i < s.length(); i++) {            
+            String str = s.substring(i,i+1);            
+            int cnt = (map.get(str) != null)? map.get(str)-1 : 1;
+            map.put(str, cnt);
+        }
+        
+        
+        Iterator<String> keys = map.keySet().iterator();
+        
+        while( keys.hasNext() ){
+            String key = keys.next();
+            if(map.get(key) == 1) {
+                result = key;
+            }
+        }
+        
+        
+        if(result == "") {
+            return ' ';
+        } else {
+         return result.charAt(0);   
+        }        
+        
+    }
+    
+    
+}
+
+public class MainClass {
+    public static String stringToString(String input) {
+        return JsonArray.readFrom("[" + input + "]").get(0).asString();
+    }
+    
+    public static String charToString(char c) {
+        return stringToString(String.valueOf(c));
+    }
+    
+    public static void main(String[] args) throws IOException {
+        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        String line;
+        while ((line = in.readLine()) != null) {
+            String s = stringToString(line);
+            line = in.readLine();
+            String t = stringToString(line);
+            
+            char ret = new Solution().findTheDifference(s, t);
+            
+            String out = charToString(ret);
+            
+            System.out.print(out);
+        }
+    }
+}
