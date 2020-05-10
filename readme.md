@@ -11,6 +11,11 @@
   > 코드리뷰 진행
  - 현장에서 그주 진행한 주제에 맞는 새로운 Medium 문제 하나 풀어보기.
   > 시간제한 엄수. 제한시간 초과 후 각자 코드 리뷰 및 설명 진행
+  
+## Week 9 & 10
+- 해쉬 알고리즘 내용보기
+- [[Easy] Single Number](https://leetcode.com/problems/single-number/)
+- [[Easy] Find the Difference](https://leetcode.com/problems/find-the-difference/)
 
 ## Week 9 & 10
 - 이진 탐색 내용보기
