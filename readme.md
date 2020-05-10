@@ -14,7 +14,7 @@
   
 ## Week 9 & 10
 - 해쉬 알고리즘 내용보기
-- [[Easy] Single Number](https://leetcode.com/problems/single-number/)
+- [[Easy] Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)
 - [[Easy] Find the Difference](https://leetcode.com/problems/find-the-difference/)
 
 ## Week 9 & 10
