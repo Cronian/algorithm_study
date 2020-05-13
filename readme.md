@@ -12,6 +12,11 @@
  - 현장에서 그주 진행한 주제에 맞는 새로운 Medium 문제 하나 풀어보기.
   > 시간제한 엄수. 제한시간 초과 후 각자 코드 리뷰 및 설명 진행
   
+## Week 12
+- 몸풀기 알고리즘 문제
+- [[Easy]Binary Tree Level Order Traversal II] (https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
+- [[Mid]Kth Largest Element in an Array] (https://leetcode.com/problems/kth-largest-element-in-an-array/)
+  
 ## Week 11
 - 해쉬 알고리즘 내용보기
 - [[Easy] Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)
