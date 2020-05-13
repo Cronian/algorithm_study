@@ -15,7 +15,7 @@
 ## Week 12
 - 몸풀기 알고리즘 문제
 - [[Easy] Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
-- [[Mid]Kth Largest Element in an Array] (https://leetcode.com/problems/kth-largest-element-in-an-array/)
+- [[Medium] Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
   
 ## Week 11
 - 해쉬 알고리즘 내용보기
