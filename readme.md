@@ -20,7 +20,7 @@
 ## Week 11
 - 해쉬 알고리즘 내용보기
 - [[Easy] Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)
-- [[Easy] Kth Largest Element in an Array](https://leetcode.com/problems/find-the-difference/)
+- [[Easy] Find the Difference](https://leetcode.com/problems/find-the-difference/)
 
 ## Week 9 & 10
 - 이진 탐색 내용보기
