@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class first {
+
+    public  static  void main(String[] args)
+    {
+        char key;
+        int data;
+
+        System.out.println("a나 b를 누르세요");
+
+        Scanner scan = new Scanner(System.in);
+
+        key = scan.next().charAt(0);
+
+        System.out.println("변환할 숫자를 입력하세요");
+        if(key == 'a'){
+            data = scan.nextInt();
+
+            System.out.println(data);
+        }
+        else if(key == 'b'){
+            data = scan.nextInt();
+
+            System.out.println(Integer.toHexString(data));
+        }
+        else
+        {
+            System.out.println("A와 B 키만 사용해야된다.");
+        }
+    }
+}
