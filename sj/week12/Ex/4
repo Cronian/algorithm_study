@@ -1,0 +1,28 @@
+
+public class fourth {
+    public  static  void main(String[] args)
+    {
+        int i, v_new , v1 ,v2;
+
+        System.out.println("피보나치");
+
+        i =0;
+        v1 =1;
+        v2 =0;
+
+        while(i<24){
+            v_new = v1+v2;
+
+            if(i % 12 != 0){
+                System.out.println();
+            }
+
+            System.out.println(v_new);
+
+            v2 = v1;
+            v1 = v_new;
+            i++;
+        }
+
+    }
+}
