@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Seventh {
+    public  static  void main(String[] args)
+    {
+       int MaxLine =5;
+       int data;
+       int MInteger;
+       int LineNumber;
+
+       for(LineNumber=1; LineNumber<= MaxLine; LineNumber++)
+       {
+           if((LineNumber % 2)==0)
+           {
+               for(data = LineNumber * 5; data >= (LineNumber*5)-4; data--)
+               {
+                   System.out.print(data+" ");
+               }
+
+               System.out.println();
+           }
+           else
+           {
+               for(data=(5*(LineNumber-1))+1;data <= (5*(LineNumber-1))+5;data++)
+               {
+                   System.out.print(data+" ");
+               }
+               System.out.println();
+           }
+       }
+    }
+}
