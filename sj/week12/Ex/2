@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+    public class Second {
+
+        public  static  void main(String[] args)
+        {
+            int num, i, data;
+            Scanner s = new Scanner(System.in);
+
+
+            System.out.println("1~10까지 입력");
+            i =1;
+            while(true){
+                System.out.println(i+"번째 도전");
+                data = s.nextInt();
+                num = (int)(Math.random()*10 +1);
+
+                if(data < num)
+                {
+                    System.out.println(data+"작습니다");
+                }
+                else if(data > num){
+                    System.out.println(data+"큽니다.");
+                }
+                else{
+                    System.out.println("정답입니다.");
+                    break;
+                }
+
+                i++;
+            }
+
+        }
+
+}
