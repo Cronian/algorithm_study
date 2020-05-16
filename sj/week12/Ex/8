@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Eighth {
+
+    public  static  void main(String[] args)
+    {
+
+        int result;
+        int num1, num2;
+        int ExecNum = 1;
+        Scanner s = new Scanner(System.in);
+
+        System.out.println("2개의 수를 입력하세요");
+
+        num1 = s.nextInt();
+        num2 = s.nextInt();
+
+        result = gcd(num1,num2,ExecNum);
+
+        System.out.println("최대공약수는 : "+result);
+
+    }
+
+    private static int gcd(int num1, int num2 ,int ExecNum) {
+
+        System.out.println(ExecNum + "회 실행한다");
+        ExecNum++;
+
+        if (num2 != 0) {
+            return gcd(num2, num1 % num2,ExecNum);
+        }
+        else
+            return num1;
+    }
+}
