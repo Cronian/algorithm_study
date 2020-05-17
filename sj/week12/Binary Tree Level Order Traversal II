@@ -1,0 +1,60 @@
+class Solution {
+    public List<List<Integer>> levelOrderBottom(TreeNode root) {
+        
+        List<List<Integer>> result = new ArrayList<List<Integer>>();
+       
+        if(root == null)
+        {
+            return result;
+        }
+        
+        //같은 레벨 쌓 넣을 스택
+        Stack<List<Integer>> buf = new Stack<List<Integer>>();
+        //같은 레발 쌍 묶음 아래부터 나와야되니까 큐        
+        Queue<TreeNode> nodes = new LinkedList<TreeNode>();
+        
+        nodes.add(root);
+        
+        
+        while (nodes.size() != 0)
+        {
+            //하나씩 값 담아줄 변수
+            List<Integer> v = new ArrayList<Integer>();
+            
+            int size = nodes.size();
+            
+            while(size != 0)
+            {
+                TreeNode temp = nodes.poll();
+                
+                System.out.println(temp);
+                
+                // 왼쪽 오른쪽 검사
+                if(temp.left != null)
+                {
+                    nodes.add(temp.left);
+                }
+                if(temp.right != null)
+                {
+                    nodes.add(temp.right);
+                }
+                
+               
+                v.add(temp.val);
+                
+                size --;
+            }
+            
+            //같은 부모를 둔 쌍 묶음
+            buf.push(v);
+        }
+        
+        while(buf.size() != 0)
+        {
+            result.add(buf.pop());
+        }
+        
+        return result;
+        
+    }
+}
