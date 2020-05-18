@@ -12,6 +12,10 @@
  - 현장에서 그주 진행한 주제에 맞는 새로운 Medium 문제 하나 풀어보기.
   > 시간제한 엄수. 제한시간 초과 후 각자 코드 리뷰 및 설명 진행
   
+## Week 13
+- 기본기를 다지는 알고리즘 문제
+- [[Easy] Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/)
+- 하나는 나중에 올림..
 ## Week 12
 - 몸풀기 알고리즘 문제
 - [[Easy] Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
