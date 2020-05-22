@@ -15,7 +15,8 @@
 ## Week 13
 - 기본기를 다지는 알고리즘 문제
 - [[Easy] Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/)
-- 하나는 나중에 올림..
+- [[Medium] Jump Game](https://leetcode.com/problems/jump-game/)
+
 ## Week 12
 - 몸풀기 알고리즘 문제
 - [[Easy] Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
