@@ -1,0 +1,122 @@
+class Solution {
+    public int robotSim(int[] commands, int[][] obstacles) {
+        int x = 0, y = 0;
+        
+        int way = -1; // 1 : 세로 -1 : 가로
+        
+        int gb = 0;
+        
+        int ngb = 1;
+                
+        
+       
+        
+        
+        
+        for(int i = 0; i < commands.length; i++) {
+            
+            // System.out.println(ngb);
+            // System.out.println(gb+"\n");
+            // System.out.println(x);
+            // System.out.println(y+"\n");
+            
+            if(commands[i] < 0) 
+            {
+                
+                way = way * -1;
+                
+                if(commands[i] == -1) {
+                    gb += 90;
+                } else {
+                    gb -= 90;
+                }
+                
+                if(gb == 360) {
+                    gb = 0;
+                }
+                if(gb < 0) {
+                    gb = 270;
+                }
+                
+                                
+            }            
+            else
+            {
+                if(gb == 0 || gb == 90) {
+                    ngb = 1;
+                } else {
+                    ngb = -1;
+                }
+                    
+                if(ngb > 0) {
+                    //플러스
+                    if(way == 1) {
+
+                        forout:
+                        for(int z = 1; z <= commands[i]; z++) {
+                            for(int j = 0; j < obstacles.length; j++) {
+                                if(obstacles[j][1] == x && obstacles[j][0] == y+1) {
+                                    break forout;
+                                }
+                            }
+                            y++;
+                        }
+
+                    } else {
+                        forout:
+                        for(int z = 1; z <= commands[i]; z++) {
+                            for(int j = 0; j < obstacles.length; j++) {
+                                if(obstacles[j][0] == y && obstacles[j][1] == x+1) {
+                                    break forout;
+                                }
+                            }
+                            x++;
+                        }
+                    }
+
+
+
+                } else {
+                    //마이너스
+                    if(way == 1) {
+
+                        forout:
+                        for(int z = 1; z <= commands[i]; z++) {
+                            for(int j = 0; j < obstacles.length; j++) {
+                                if(obstacles[j][1] == x && obstacles[j][0] == y-1) {
+                                    break forout;
+                                }
+                            }
+                            y--;
+                        }
+
+
+                    } else {
+                        forout:
+                        for(int z = 1; z <= commands[i]; z++) {
+                            for(int j = 0; j < obstacles.length; j++) {
+                                if(obstacles[j][0] == y && obstacles[j][1] == x-1) {
+                                    break forout;
+                                }
+                            }
+                            x--;
+                        }
+                    }
+
+
+                }
+            }
+            
+        }
+        
+        System.out.println(x);
+        System.out.println(y);
+        
+        return x*x + y*y;
+        
+        
+        
+        
+    
+    }
+}
