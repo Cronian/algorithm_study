@@ -1,0 +1,75 @@
+class Solution {
+    public int robotSim(int[] commands, int[][] obstacles) {
+        
+        int maxVal = 0;
+        int direction = 0;
+        int x = 0;
+        int y = 0;
+        
+        
+        // 예외처리 추가
+        if(commands == null || commands.length == 0)
+        {
+            return 0;
+        } 
+        
+        Set<String> HSet = new HashSet<>();
+        
+        for(int[] o : obstacles)
+        {   //장애물의 x,y축 저장
+            HSet.add(o[0] + "," + o[1]);   
+        }
+        
+        //일반 좌표 방향 따라 움직일 가지수
+        // 0,1 이면 앞으로 전진
+        // 1,0 이면 회전 이런식
+        int[][] d = {{0,1},{1,0},{0,-1},{-1,0}};
+        
+        for (int c : commands)
+        {
+            //오른쪽
+            if(c == -1)
+            {
+                //오른쪽이 +1로 기준
+                direction = (direction + 1) % 4;
+                System.out.println(direction);
+            }
+            else if(c==-2)
+            {
+                // 왼쪽은 -1
+                direction = (direction-1)%4;
+                
+                //음수되면
+                if(direction < 0){
+                    //양수로 방향만 맞추줌 (방향이 반대로 될수도있으니)
+                    direction += 4;
+                }
+            }
+            else if(c >=1 && c <= 9)
+            {
+                for(int i=0; i<c; i++)
+                {
+                    //x축 움직임
+                    int datX = x + d[direction][0];
+                    
+                    //ycnr
+                    int datY = y + d[direction][1];
+                    
+                    // 장애물이 있는 위치면 break
+                    if(HSet.contains(datX + "," + datY))
+                    {
+                        break;
+                    }
+                    
+                    x+= d[direction][0];
+                    
+                    y+= d[direction][1];
+                    
+                    maxVal = Math.max(maxVal,x*x + y*y);
+                }
+            }
+        }
+        
+        return maxVal;
+    }
+}
