@@ -1,0 +1,25 @@
+class Solution {
+    public boolean canJump(int[] nums) {
+        
+        // 맨 처음 
+        int last = 0;
+        
+        // 배열 전체를 돌껀데 
+        for(int i=0; i<nums.length; i++)
+        {
+            // 그 다음 위치가 i보다 작으면 false
+            // last는 계속 최대 값인데 last가 i보다 작아질 수 없음
+            if(i>last) return false;
+            
+            // i+nums[i]는 해당 위치에서 안에 들어있는 value까지 이동
+            // 지금 내위치인 i에서 value까지 이동할 이동할 위치
+            // last가 곧 현재 위치에서 이동할 다음 위치 
+            last = Math.max(last, i+nums[i]);
+        }
+        
+        return true;
+        
+        
+    }
+    
+}
