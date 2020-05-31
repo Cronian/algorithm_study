@@ -1,0 +1,17 @@
+class Solution {
+    public boolean hasPathSum(TreeNode root, int sum) {
+        
+        if(root == null)
+        {
+            return false;
+        }
+        
+        // 맨끝 노득까지 갔고 주어진 값이랑 같을떄
+        if(root.left == null && root.right ==null && sum == root.val){
+            return true;
+        }
+        
+        return hasPathSum(root.left, sum - root.val) || hasPathSum(root.right, sum - root.val);
+        
+    }
+}
