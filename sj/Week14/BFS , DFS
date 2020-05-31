@@ -1,0 +1,64 @@
+DFS(깊이 우선 탐색) : 현재 정점에서 갈 수 있는 점까지 들어가면서 탐색 
+방문했던 정점을 재탐색하지 않기 위해, 따로 배열을 만들어서 방문한 곳인지 체크필요
+재귀함수나 스택 활용
+```
+  
+    visited[x][y] = true;
+    groups[group_id]++;
+
+    // 해당 위치의 주변을 확인
+    for(int i = 0; i < 4; i++){
+        int nx = x + dx[i];
+        int ny = y + dy[i];
+
+      
+        if(0 <= nx && nx < n && 0 <= ny && ny < n){
+            
+            if(map[nx][ny] == 1 && visited[nx][ny] == false){
+            재귀함수를 활용한 DFS
+                dfs_recursion(nx, ny);
+            }
+        }
+    }
+ ```
+ 
+  BFS(너비 우선 탐색) : 현재 정점에 연결된 가까운 점들부터 탐색 
+  방문했던 정점을 재탐색하지 않기 위해, 따로 배열을 만들어서 방문한 곳인지 체크필요
+  큐를 이용한 
+  ```
+  void bfs(int x, int y){
+
+    queue< pair<int,int> > q;
+    q.push(make_pair(x,y)); 
+
+ 
+    visited[x][y] = true;
+    groups[group_id]++;  
+
+    while(!q.empty()){
+
+     
+        x = q.front().first;
+        y = q.front().second;
+        q.pop();
+
+       
+        for(int i = 0; i < 4; i++){
+            int nx = x + dx[i];
+            int ny = y + dy[i];
+
+         
+            if(0 <= nx && nx < n && 0 <= ny && ny < n){
+              
+                if(map[nx][ny] == 1 && visited[nx][ny] == false){
+                    visited[nx][ny]=true;
+
+                    groups[group_id]++;
+                    q.push(make_pair(nx,ny));   
+                }
+            }
+        }
+    }
+}
+  ```
+  
