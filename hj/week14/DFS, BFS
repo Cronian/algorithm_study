@@ -1,0 +1,103 @@
+완전탐색
+  - 가능한 모든 경우의 수를 다 시도해 답을 찾는 방법
+  - 정확하고 확실하게 답을 찾을 수 있다는 장점이 있지만 시간이 오래 걸린다는 단점이 있다.
+  - ex) 1부터 n까지의 수를 모두 더하기, 난수에서 배열에서 특정한 수 찾기 등.....
+
+1. DFS(Depth First Search) 깊이 우선 탐색
+  - 현재 정점에서 갈 수 있는 점들 중, 한 곳을 우선적으로 끝까지 탐색
+  - 스택이나 재귀함수로 구현
+  - 방문했던 정점을 재탐색하지 않기 위해, 따로 배열을 만들어서 방문한 곳인지 체크필요
+  - 완전 탐색
+  - 가중치, 비가중치 그래프에서는 거의 사용 x
+  
+  
+  /* 인접 리스트 이용 */
+class Graph {
+  private int V;
+  private LinkedList<Integer> adj[];
+ 
+  Graph(int v) {
+      V = v;
+      adj = new LinkedList[v];
+      // 인접 리스트 초기화
+      for (int i=0; i<v; ++i)
+          adj[i] = new LinkedList();
+  }
+  void addEdge(int v, int w) { adj[v].add(w); }
+ 
+  /* DFS에 의해 사용되는 함수 */
+  void DFSUtil(int v, boolean visited[]) {
+      // 현재 노드를 방문한 것으로 표시하고 값을 출력
+      visited[v] = true;
+      System.out.print(v + " ");
+ 
+      // 방문한 노드와 인접한 모든 노드를 가져온다.
+      Iterator<Integer> it = adj[v].listIterator();
+      while (it.hasNext()) {
+          int n = it.next();
+          // 방문하지 않은 노드면 해당 노드를 시작 노드로 다시 DFSUtil 호출
+          if (!visited[n])
+              DFSUtil(n, visited);
+      }
+  }
+ 
+  /* DFS */
+  void DFS(int v) {
+      boolean visited[] = new boolean[V];
+ 
+      // v를 시작 노드로 DFSUtil 재귀 호출
+      DFSUtil(v, visited);
+  }
+}
+
+  
+
+
+2. BFS(Breadth First Search) 너비 우선 탐색
+  - 현재 정점에서 갈 수 있는 점들부터 탐색
+  - 큐를 이용하여 구현
+  - 방문했던 정점을 재탐색하지 않기 위해, 따로 배열을 만들어서 방문한 곳인지 체크필요
+  - 완전 탐색
+  - 비가중치 그래프에서 최단거리 탐색 가능
+  - 가중치 그래프에서는 거의 사용x
+ 
+ 
+ class Graph {
+  private int V;
+  private LinkedList<Integer> adj[];
+ 
+  Graph(int v) {
+    V = v;
+    adj = new LinkedList[v];
+    for (int i=0; i<v; ++i)
+      adj[i] = new LinkedList();
+  }
+ 
+  void addEdge(int v, int w) { adj[v].add(w); }
+ 
+  /* BFS */
+  void BFS(int s) {
+    boolean visited[] = new boolean[V];
+    LinkedList<Integer> queue = new LinkedList<Integer>();
+ 
+    visited[s] = true;
+    queue.add(s);
+ 
+    while (queue.size() != 0) {
+      // 방문한 노드를 큐에서 추출(dequeue)하고 값을 출력
+      s = queue.poll();
+      System.out.print(s + " ");
+ 
+      // 방문한 노드와 인접한 모든 노드를 가져온다.
+      Iterator<Integer> i = adj[s].listIterator();
+      while (i.hasNext()) {
+        int n = i.next();
+        // 방문하지 않은 노드면 방문한 것으로 표시하고 큐에 삽입(enqueue)
+        if (!visited[n]) {
+          visited[n] = true;
+          queue.add(n);
+        }
+      }
+    }
+  }
+}
