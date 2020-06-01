@@ -15,16 +15,16 @@
  */
 class Solution {
     
-    private static int goal;
-    private static int resultNum = 0;
+    private int goal;
+    private int resultNum;
     
     public boolean hasPathSum(TreeNode root, int sum) {
-        
+        this.resultNum = 0;
         if(root == null) {
             return false;   
         }
         
-        goal = sum;
+        this.goal = sum;
         
         getSum(root, 0);
         
@@ -40,7 +40,7 @@ class Solution {
     }
     
     
-    public static void getSum(TreeNode tree, int sum) {
+    public void getSum(TreeNode tree, int sum) {
         
         sum = sum + tree.val;
         
@@ -53,9 +53,9 @@ class Solution {
             if(tree.right != null) {
                 getSum(tree.right, sum);
             }            
-        } else if(goal == sum) {         
+        } else if(this.goal == sum) {         
             System.out.println("aa");
-            resultNum = 1;
+            this.resultNum = 1;
         }
         
         
