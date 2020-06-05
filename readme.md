@@ -12,7 +12,7 @@
  - 현장에서 그주 진행한 주제에 맞는 새로운 Medium 문제 하나 풀어보기.
   > 시간제한 엄수. 제한시간 초과 후 각자 코드 리뷰 및 설명 진행
 
-## Week 14
+## Week 15
 - Chapter12 풀어오기
 - BFS, DFS 
   [[Easy] Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
