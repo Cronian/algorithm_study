@@ -11,8 +11,15 @@
   > 코드리뷰 진행
  - 현장에서 그주 진행한 주제에 맞는 새로운 Medium 문제 하나 풀어보기.
   > 시간제한 엄수. 제한시간 초과 후 각자 코드 리뷰 및 설명 진행
-  
-  ## Week 14
+
+## Week 14
+- Chapter12 풀어오기
+- BFS, DFS 
+  [[Easy] Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
+- [[Easy] Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/)
+- [[Medium] Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)
+
+## Week 14
 - [[Easy] Path Sum](https://leetcode.com/problems/path-sum/)
 - [[Medium] Number of Islands](https://leetcode.com/problems/number-of-islands/)
   
