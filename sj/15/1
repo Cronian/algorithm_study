@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class first {
+
+    static int cnt =0;
+
+    public  static  void main(String[] args)
+    {
+        Scanner scan = new Scanner(System.in);
+
+        int n = scan.nextInt();
+
+        hanoi(n,1,2);
+    }
+
+    public static void hanoi(int n, int a, int b)
+    {
+        int temp;
+
+        if(n==1)
+        {
+            System.out.println("원판 " + n + "을(를) " + a + "에서 " + b + "로");
+        }
+        else
+        {
+            temp = 6 - a -b;
+
+            hanoi(n-1,a,temp);
+
+            System.out.println("원판 " + n + "을(를) " + a + "에서 " + b + "로");
+
+            hanoi(n - 1, temp, b);
+        }
+
+        cnt++;
+    }
+}
