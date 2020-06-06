@@ -1,0 +1,19 @@
+
+
+public class sec {
+
+    public  static  void main(String[] args)
+    {
+        int val = GCD(120,32);
+
+        System.out.println(val);
+    }
+
+    public static int GCD(int p, int q) {
+        if(q == 0) {
+            return p;
+        }
+
+        return GCD(q, p % q);
+    }
+}
