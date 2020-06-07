@@ -1,0 +1,32 @@
+class Solution {
+    public int[] arrayRankTransform(int[] arr) {
+        
+        
+        Map<Integer, Integer> ranking = new HashMap<>();
+        
+        int[] result = new int[arr.length];
+        
+        int[] temp = arr.clone();
+        
+        Arrays.sort(temp);
+                
+        int r = 1;
+        for(int i =0; i< temp.length; i++)
+        {
+            //이미 같은거 들어가있으면 패스
+            if(ranking.containsKey(temp[i])){
+                continue;
+            }
+            
+            ranking.put(temp[i],r++);
+            
+        }
+        
+        for(int i=0; i<result.length; i++)
+        {
+            result[i] = ranking.get(arr[i]);
+        }
+        
+        return result;
+    }
+}
