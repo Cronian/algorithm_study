@@ -1,0 +1,80 @@
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public ListNode removeZeroSumSublists(ListNode head) {
+        
+        int sum = 0;
+            
+        Map<Integer,ListNode> map = new HashMap<Integer,ListNode>();
+        
+        ListNode temp = new ListNode(0);
+        
+        temp.next = head;
+        
+        // temp를 넣어둠
+        map.put(0,temp);
+        
+        ListNode curr = head;
+        
+        
+        //넣는거
+        while(curr != null)
+        {
+             // 1 -> 3 -> 0 -> 3 -> 4
+            sum += curr.val;
+            
+            //System.out.println(curr.val);
+            
+            
+            map.put(sum,curr);
+            
+            // ([1,1], [3,2] , [0,-3], [3,3] , [4,1]) => 0에는 다른거 들어가 있음 이미
+            System.out.println(curr.val);
+            
+            curr = curr.next;
+        
+        }
+        
+        sum = 0;
+        
+        curr = temp;
+        
+        
+        
+        while(curr != null)
+        {
+            //System.out.println(curr.val);
+            
+             // 1 -> 3 -> 0 -> 3 -> 4 -> 0 -> 3 -> 1
+            sum+=curr.val;
+            
+            
+            if(map.containsKey(sum)){
+                
+                // 다른 리스트에 sum을 키로 가지고 있는거 넣기
+                // temp에서 빠짐
+                ListNode temp2 = map.get(sum);
+                
+                if(temp2 != curr){
+                    
+                   // System.out.println(temp2.val);
+                    
+                    curr.next = temp2.next;
+                }
+                
+            }
+            curr = curr.next;
+        }
+        
+        // 0시작이니 next
+        return temp.next;
+    }
+}
