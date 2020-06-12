@@ -14,8 +14,8 @@
 
 ## Week 16
 - 지난주와 동일
-- [[Easy] shuffle-the-array(https://leetcode.com/problems/shuffle-the-array/)]
-- [[Medium] sum-of-nodes-with-even-valued-grandparent (https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/)]
+- [[Easy] shuffle-the-array](https://leetcode.com/problems/shuffle-the-array/)
+- [[Medium] sum-of-nodes-with-even-valued-grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/)
 
 ## Week 15
 - Chapter12 풀어오기
