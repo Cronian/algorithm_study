@@ -9,7 +9,7 @@ class Solution {
     	for(int i=0; i<n; i++)
     	{
     		newNums[i*2] = nums[i];
-    		newNums[i*2+1] = nums[i+3]; 	
+    		newNums[i*2+1] = nums[i+]; 	
     	}
     	
     	return newNums;
