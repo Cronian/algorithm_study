@@ -1,0 +1,56 @@
+import java.util.Scanner;
+
+public class first {
+
+    public  static  void main(String[] args)
+    {
+       int testCases, tc, baseNumber;
+       int i;
+       int Solution;
+
+       Scanner s = new Scanner(System.in);
+
+       testCases = s.nextInt();
+
+       for(tc=0; tc<testCases; tc++){
+           Solution = 0;
+
+           baseNumber = s.nextInt();
+
+           for(i=1; i<301; i++)
+           {
+               Solution += makeReverseNumber(i*i, baseNumber);
+
+           }
+
+           System.out.println("총 갯수 : "+Solution);
+
+       }
+    }
+
+    private static int makeReverseNumber(int num_Origin, int b) {
+        int temp, num_Reverse;
+        temp = num_Origin;
+        num_Reverse =0;
+
+        while(temp>0){
+            num_Reverse = (num_Reverse * b + (temp % b));
+            temp = temp/b;
+        }
+
+        if(num_Reverse == num_Origin){
+            System.out.println(num_Reverse+"이랑"+num_Origin);
+        }
+
+        if(num_Reverse == num_Origin)
+        {
+            return 1;
+        }
+        else
+        {
+            return 0;
+        }
+
+
+    }
+}
