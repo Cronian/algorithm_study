@@ -1,0 +1,26 @@
+public class Fifth {
+
+    public  static  void main(String[] args)
+    {
+        int num_matrix = 3;
+        
+        char[] init = {'A', 'B', 'C'};
+        
+        for(int i=0; i< num_matrix; i++)
+        {
+            for(int j=0; j<num_matrix; j++)
+            {
+                char c = init[i^j];
+                
+                if(j== num_matrix-1)
+                {
+                    System.out.println(c);
+                }
+                else
+                {
+                    System.out.println("    ");
+                }
+            }
+        }
+    }
+}
