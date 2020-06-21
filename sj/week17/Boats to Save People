@@ -1,0 +1,35 @@
+class Solution {
+    public int numRescueBoats(int[] people, int limit) {
+        
+        if(people.length == 0)
+        {
+            return 0;
+        }
+        
+        //무게순 정렬
+        Arrays.sort(people);
+        
+        //낮은무게
+        int min = 0;
+        //높은무게
+        int max = people.length -1;
+        // 보트
+        int b= 0;
+        
+        while (min <= max) {
+            // 낮은 놈 한명 큰놈 한명 해서 최대무게 확인
+            if(people[min] + people[max] <= limit)
+            {
+                min++;
+            }
+            
+            //최대무게 넘으면 그다음으로 무게 적은놈
+            max--;
+            
+            b++;
+            
+        }
+        
+        return b;
+    }
+}
