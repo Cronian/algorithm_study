@@ -12,6 +12,13 @@
  - 현장에서 그주 진행한 주제에 맞는 새로운 Medium 문제 하나 풀어보기.
   > 시간제한 엄수. 제한시간 초과 후 각자 코드 리뷰 및 설명 진행
   
+## Week 20
+1. 이번주부터 알고리즘방에 출제된 문제로 대채.
+2. 각자 푼 문제와 개선방안에 대해 고민해보기 ( 알고리즘 고도화 )
+ - [[Medium] 313. Super Ugly Number](https://leetcode.com/problems/super-ugly-number/)
+ - [[Medium] 452. Minimum Number Of Arrows to Burst Ballons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
+ - [[Medium] 886. Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)
+  
 ## Week 19
 - [[Easy] 35. Search Insert Position](https://leetcode.com/problems/search-insert-position/)
 - [[Medium] 62. Unique Paths](https://leetcode.com/problems/unique-paths/)
