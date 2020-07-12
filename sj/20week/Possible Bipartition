@@ -1,0 +1,53 @@
+class Solution {
+    public boolean possibleBipartition(int N, int[][] dislikes) {
+        
+        int[][] g = new int[N][N];
+        
+        for(int d[] : dislikes)
+        {
+            g[d[0]-1][d[1]-1] =1;
+            
+            g[d[1]-1][d[0]-1] =1;
+            
+        }
+        
+        int result[] = new int[N];
+        
+        for(int i=0; i<N; i++)
+        {
+            if(!dfs(g,i,result, 1))
+            {
+                return false;
+            }
+        }
+        
+        return true;
+    }
+    
+     public boolean dfs(int[][] graph, int curr, int result[], int c) 
+     {
+         
+        if (result[curr] != 0)
+        {
+            return true;
+        }
+         
+        result[curr] = c;
+         
+        for (int i = 0; i < graph[curr].length; i++) 
+        {
+            if (graph[curr][i] == 1) 
+            {
+                if (result[i] == c){
+                    return false;
+                }
+                    
+                if (!dfs(graph, i, result, -c)) {
+                    return false;
+                }
+                    
+            }
+        }
+        return true;
+    }
+}
