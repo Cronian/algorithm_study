@@ -12,6 +12,14 @@
  - 현장에서 그주 진행한 주제에 맞는 새로운 Medium 문제 하나 풀어보기.
   > 시간제한 엄수. 제한시간 초과 후 각자 코드 리뷰 및 설명 진행
   
+## Week 21
+1. 1-2번문제 ( 필수문제 )
+ - [[Easy] 1512.Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)
+ - [[Medium] 200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
+2. 3-4번문제 ( 도전문제 )
+ - [[Medium] 1035.Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)
+ - [[Medium] 795.Number of Subarray with Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/)
+  
 ## Week 20
 1. 이번주부터 알고리즘방에 출제된 문제로 대채.
 2. 각자 푼 문제와 개선방안에 대해 고민해보기 ( 알고리즘 고도화 )
