@@ -1,0 +1,21 @@
+class Solution {
+    public int maxUncrossedLines(int[] A, int[] B) {
+        int a= A.length;
+        int b = B.length;
+        
+        int[][] dp = new int[a+1][b+1];
+        
+        for(int i=1; i< a+1; i++)
+        {
+            for(int j=1; j<b+1; j++)
+            {
+                int x = (A[i-1] == B[j-1]) ? 1 :0;
+                
+                dp[i][j] = Math.max(x+dp[i-1][j-1], Math.max(dp[i][j-1], dp[i-1][j]) );
+            }
+        }
+        
+        return dp[a][b];
+        
+    }
+}
