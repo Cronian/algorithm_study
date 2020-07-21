@@ -12,6 +12,14 @@
  - 현장에서 그주 진행한 주제에 맞는 새로운 Medium 문제 하나 풀어보기.
   > 시간제한 엄수. 제한시간 초과 후 각자 코드 리뷰 및 설명 진행
   
+## Week 22
+1. 1-2번문제 ( 필수문제 )
+ - [[Easy] 53.Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+ - [[Medium] 22.Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+2. 3-4번문제 ( 도전문제 )
+ - [[Medium] 1267.Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/)
+ - [[Hard] 224.Basic Calculator](https://leetcode.com/problems/basic-calculator/)
+  
 ## Week 21
 1. 1-2번문제 ( 필수문제 )
  - [[Easy] 1512.Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)
