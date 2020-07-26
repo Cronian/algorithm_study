@@ -1,0 +1,54 @@
+/**
+ * @param {number} n
+ * @return {string[]}
+ */
+var generateParenthesis = function(n) {
+    
+    var res = [];
+    
+    dfs(n,n,'');
+    
+    return res;
+    
+    
+    function dfs(left,right, str)
+    {
+        if(!left && !right && str.length)
+            {
+                return res.push(str);
+            }
+        
+        if(left){
+            dfs(left-1, right, str+'(');
+        }
+        
+        if(right> left){
+            dfs(left, right-1, str+')');
+        }
+    }
+    
+};
+
+///////////////
+
+class Solution:
+    def generateParenthesis(self, n: int) -> List[str]:
+        
+        res=[]
+        
+        self.dfs(n,n,"",res)
+        
+        return res
+    
+    
+    def dfs(self,left,right,curr,res):
+        
+        if left>right or left < 0 or right <0:
+            return
+        if left == 0 and right ==0:
+            res.append(curr)
+            return
+        
+        self.dfs(left-1,right,curr+"(", res)
+        self.dfs(left,right-1,curr+")", res)
+                
