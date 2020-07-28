@@ -17,7 +17,7 @@
  - [[Easy] 680.Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)
  - [[Medium] 1249.Minimum Remove to Make Vaild Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
 2. 3-4번문제 ( 도전문제 )
- - [[Medium] 449.Serialize and Deserialize BST] (https://leetcode.com/problems/serialize-and-deserialize-bst/)
+ - [[Medium] 449.Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)
  - [[Hard] 391.Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle/)
 
 ## Week 22
