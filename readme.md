@@ -12,6 +12,13 @@
  - 현장에서 그주 진행한 주제에 맞는 새로운 Medium 문제 하나 풀어보기.
   > 시간제한 엄수. 제한시간 초과 후 각자 코드 리뷰 및 설명 진행
   
+## Week 24
+1. 1-2번문제 ( 필수문제 )
+ - [[Easy] 121.Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+ - [[Medium] 1405.Longest Happy String](https://leetcode.com/problems/longest-happy-string/)
+2. 3-4번문제 ( 도전문제 )
+ - [[Medium] 1395.Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/)
+ - [[Hard] 887.Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)
 ## Week 23
 1. 1-2번문제 ( 필수문제 )
  - [[Easy] 680.Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)
