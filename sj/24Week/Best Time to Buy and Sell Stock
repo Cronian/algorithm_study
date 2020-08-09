@@ -1,0 +1,21 @@
+/**
+ * @param {number[]} prices
+ * @return {number}
+ */
+var maxProfit = function(prices) {
+    
+    let dif =0;
+    let min = Infinity;
+    
+    for(let p of prices)
+        {
+            min = Math.min(p,min)
+            if(min<p)
+                {
+                    dif = Math.max(dif,(p-min));
+                }
+        }
+    
+    return dif
+    
+};
