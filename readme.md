@@ -12,6 +12,13 @@
  - 현장에서 그주 진행한 주제에 맞는 새로운 Medium 문제 하나 풀어보기.
   > 시간제한 엄수. 제한시간 초과 후 각자 코드 리뷰 및 설명 진행
   
+## Week 25
+1. 1-2번문제 ( 필수문제 )
+ - [[Easy] 496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
+ - [[Medium] 40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
+2. 3-4번문제 ( 도전문제 )
+ - [[Medium] 457. Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)
+ - [[Hard] 587. Erect the Fence](https://leetcode.com/problems/erect-the-fence/)
 ## Week 24
 1. 1-2번문제 ( 필수문제 )
  - [[Easy] 121.Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
