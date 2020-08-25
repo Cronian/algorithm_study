@@ -12,6 +12,14 @@
  - 현장에서 그주 진행한 주제에 맞는 새로운 Medium 문제 하나 풀어보기.
   > 시간제한 엄수. 제한시간 초과 후 각자 코드 리뷰 및 설명 진행
   
+## Week 26
+1. 1-3번문제 ( 필수문제 )
+ - [[Easy] 21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+ - [[Medium] 148. Sort List](https://leetcode.com/problems/sort-list/)
+ - [[Hard] 23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+2. 4-5번문제 ( 도전문제 )
+ - [[Medium] 855. Exam Room](https://leetcode.com/problems/exam-room/)
+ - [[Hard] 391. Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle/)
 ## Week 25
 1. 1-2번문제 ( 필수문제 )
  - [[Easy] 496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
