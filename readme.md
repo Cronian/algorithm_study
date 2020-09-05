@@ -12,6 +12,11 @@
  - 현장에서 그주 진행한 주제에 맞는 새로운 Medium 문제 하나 풀어보기.
   > 시간제한 엄수. 제한시간 초과 후 각자 코드 리뷰 및 설명 진행
   
+  
+## Week 27
+1. 1-2번문제 ( 필수문제 )
+ - [[Easy] 1431. Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)
+ - [[Easy] 1108. Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)
 ## Week 26
 1. 1-3번문제 ( 필수문제 )
  - [[Easy] 21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
