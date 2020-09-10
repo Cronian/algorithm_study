@@ -12,11 +12,20 @@
  - 현장에서 그주 진행한 주제에 맞는 새로운 Medium 문제 하나 풀어보기.
   > 시간제한 엄수. 제한시간 초과 후 각자 코드 리뷰 및 설명 진행
   
-  
+## Week 28
+1. 1-3번문제 ( 필수문제 )
+ - [[Easy] 155. Min Stack](https://leetcode.com/problems/min-stack/)
+ - [[Medium] 341. Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)
+ - [[Hard] 239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
+ 2. 4-5번문제 ( 도전문제 )
+ - [[Hard] 834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/)
+ - [[Hard] 882. Reachable Nodes In Subdivided Graph](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph/)
+ 
 ## Week 27
 1. 1-2번문제 ( 필수문제 )
  - [[Easy] 1431. Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)
  - [[Easy] 1108. Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)
+ 
 ## Week 26
 1. 1-3번문제 ( 필수문제 )
  - [[Easy] 21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
@@ -25,6 +34,7 @@
 2. 4-5번문제 ( 도전문제 )
  - [[Medium] 855. Exam Room](https://leetcode.com/problems/exam-room/)
  - [[Hard] 391. Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle/)
+ 
 ## Week 25
 1. 1-2번문제 ( 필수문제 )
  - [[Easy] 496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
@@ -32,6 +42,7 @@
 2. 3-4번문제 ( 도전문제 )
  - [[Medium] 457. Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)
  - [[Hard] 587. Erect the Fence](https://leetcode.com/problems/erect-the-fence/)
+ 
 ## Week 24
 1. 1-2번문제 ( 필수문제 )
  - [[Easy] 121.Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
@@ -39,6 +50,7 @@
 2. 3-4번문제 ( 도전문제 )
  - [[Medium] 1395.Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/)
  - [[Hard] 887.Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)
+ 
 ## Week 23
 1. 1-2번문제 ( 필수문제 )
  - [[Easy] 680.Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)
