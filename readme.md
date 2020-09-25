@@ -12,7 +12,9 @@
  - 현장에서 그주 진행한 주제에 맞는 새로운 Medium 문제 하나 풀어보기.
   > 시간제한 엄수. 제한시간 초과 후 각자 코드 리뷰 및 설명 진행
 
-## Week 30 (출제 대기중)
+## Week 30
+ - [[Easy] 1221. Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)
+ - [[Medium] 807. Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)
 ## Week 29 (쉬었음)
 ## Week 28
 1. 1-3번문제 ( 필수문제 )
