@@ -1,0 +1,36 @@
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var balancedStringSplit = function(s) {
+    
+    let lcnt =0;
+
+    let rcnt = 0;
+    
+    let cnt = 0;
+    
+    s.split('').forEach(v => {
+        
+        if(v === 'L')
+            {
+                lcnt++;
+            }
+        else if(v === 'R')
+            {
+                rcnt++;
+            }
+        
+        if(lcnt === rcnt){
+            cnt++;
+            
+            lcnt = 0;
+            rcnt = 0;
+        }
+        
+        
+    });
+    
+    return cnt;
+    
+};
