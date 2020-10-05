@@ -13,6 +13,7 @@
   > 시간제한 엄수. 제한시간 초과 후 각자 코드 리뷰 및 설명 진행
 
 ## Week 31 (추석연휴) & 32 
+0. 30주차에 풀던 
 1. 1-3번문제 ( 필수문제 )
  - [[Easy] 448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
  - [[Medium] 442. Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
