@@ -12,6 +12,14 @@
  - 현장에서 그주 진행한 주제에 맞는 새로운 Medium 문제 하나 풀어보기.
   > 시간제한 엄수. 제한시간 초과 후 각자 코드 리뷰 및 설명 진행
 
+## Week 31 (추석연휴) & 32 
+1. 1-3번문제 ( 필수문제 )
+ - [[Easy] 448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
+ - [[Medium] 442. Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
+ - [[Hard] 41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) 
+2. 4번문제 ( 도전문제 )
+ - [[Hard] 968. Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)
+
 ## Week 30
  - [[Easy] 1221. Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)
  - [[Medium] 807. Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)
@@ -21,7 +29,7 @@
  - [[Easy] 155. Min Stack](https://leetcode.com/problems/min-stack/)
  - [[Medium] 341. Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)
  - [[Hard] 239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
- 2. 4-5번문제 ( 도전문제 )
+2. 4-5번문제 ( 도전문제 )
  - [[Hard] 834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/)
  - [[Hard] 882. Reachable Nodes In Subdivided Graph](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph/)
  
