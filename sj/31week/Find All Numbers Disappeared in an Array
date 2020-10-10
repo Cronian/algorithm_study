@@ -1,0 +1,22 @@
+var findDisappearedNumbers = function(nums) {
+    
+    let temp = [];
+    
+    let arr = [];
+    
+    
+    
+    nums.map((n)=> temp[n] = true);
+    
+    for(let i=0; i< nums.length; i++)
+        {
+            if(!temp[i+1])
+                {
+                    arr.push(i+1);
+                }
+        }
+    
+    
+    
+    return arr
+};
