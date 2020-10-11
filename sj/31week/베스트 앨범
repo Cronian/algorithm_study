@@ -1,0 +1,70 @@
+function solution(genres, plays) {
+    var answer = [];
+    
+    
+    genres = genres.map((g,i)=> {
+        return {
+            g,
+            i,
+            playCount: plays[i]
+        }
+    });
+    //return genres : {"classic", "index", 500} <== 이런식으로 입력
+    
+    
+    
+    let playlist = [];
+    
+    genres.map(s=>{
+        
+        // play 배열에 있는 장르가 해당하는가
+        let now = playlist.find(play=> play.g === s.g);
+        
+        //없으면 푸쉬
+        if(!now)
+            {
+                playlist.push({
+                    g: s.g,
+                    totalCount: s.playCount
+                });
+            }
+        //있으면 카운트 추가
+        else
+            {
+                now.totalCount += s.playCount;
+            }
+        
+    });
+    
+    
+    playlist.sort((a,b)=> b.totalCount - a.totalCount);//정렬
+    
+    
+    playlist.map((p,i)=> {
+        
+        let cur = [];
+ 
+        genres.map(s=>{
+            //플레이 리스트의 장르 와같으면
+            if(s.g === p.g )
+                {
+                    cur.push(s);
+                }
+        });
+        
+        cur.sort((a,b)=> b.playCount - a.playCount); // 정렬
+        
+        answer.push(cur[0].i); 
+        
+        if(cur.length>1)
+            {
+                answer.push(cur[1].i);
+            }
+        
+    });
+    
+    
+    
+    
+    return answer;
+}
