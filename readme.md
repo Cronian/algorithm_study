@@ -12,6 +12,14 @@
  - 현장에서 그주 진행한 주제에 맞는 새로운 Medium 문제 하나 풀어보기.
   > 시간제한 엄수. 제한시간 초과 후 각자 코드 리뷰 및 설명 진행
 
+## Week 33 
+1. 1-2번문제 ( 필수문제 )
+ - [[Medium] 240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+ - [[Hard] 99. Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)
+2. 3-4번문제 ( 도전문제 ) 
+ - [[Hard] 1157. Online Majority Element In Subarray](https://leetcode.com/problems/online-majority-element-in-subarray/)
+ - [[Hard] 552. Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/)
+
 ## Week 31 (추석연휴) & 32 
 0. 30주차에 풀던 
 1. 1-3번문제 ( 필수문제 )
