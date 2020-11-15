@@ -1,0 +1,35 @@
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var longestSubarray = function(nums) {
+    
+    let sum = 0;
+    let max = 0;
+    let check = false;
+    let checkPoint = 0; 
+    
+    for(let i=0; i< nums.length; i++)
+        {
+            if(nums[i] === 1)
+            {
+                sum++;
+            }
+            else
+                {
+                    if(check)
+                        {
+                            sum = i -checkPoint - 1 
+                        }
+                    
+                    check = true;
+                    checkPoint = i;
+                }
+            
+            max = Math.max(max,sum);
+            
+        }
+    
+    return check === false ? max-1:max
+    
+};
