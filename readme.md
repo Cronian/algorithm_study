@@ -11,7 +11,12 @@
   > 코드리뷰 진행
  - 현장에서 그주 진행한 주제에 맞는 새로운 Medium 문제 하나 풀어보기.
   > 시간제한 엄수. 제한시간 초과 후 각자 코드 리뷰 및 설명 진행
-
+## Week 36
+1. 1-2번문제 ( 필수문제 )
+ - [[Easy] 832. Flipping an Image](https://leetcode.com/problems/flipping-an-image/)
+ - [[Medium] 1493. Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/ )
+2. 3번문제 ( 도전문제 )
+ - [[Hard] 1499. Max Value of Equation](https://leetcode.com/problems/max-value-of-equation/)
 ## Week 33 
 1. 1-2번문제 ( 필수문제 )
  - [[Medium] 240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
