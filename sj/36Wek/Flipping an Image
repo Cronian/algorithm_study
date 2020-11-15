@@ -1,0 +1,11 @@
+/**
+ * @param {number[][]} A
+ * @return {number[][]}
+ */
+var flipAndInvertImage = function(A) {
+    
+    return A.map((item)=> {
+        return item.reverse().map((item2)=> item2^1)}
+                 
+    
+)};
