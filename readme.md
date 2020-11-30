@@ -11,7 +11,7 @@
   > 코드리뷰 진행
  - 현장에서 그주 진행한 주제에 맞는 새로운 Medium 문제 하나 풀어보기.
   > 시간제한 엄수. 제한시간 초과 후 각자 코드 리뷰 및 설명 진행
-## Week 37
+## Week 38
 1. 1-3번문제 ( 필수문제 )
  - [[Easy] 35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) - 풀어본 문제 ( week19 )
  - [[Medium] 153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
