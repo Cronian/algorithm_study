@@ -11,6 +11,12 @@
   > 코드리뷰 진행
  - 현장에서 그주 진행한 주제에 맞는 새로운 Medium 문제 하나 풀어보기.
   > 시간제한 엄수. 제한시간 초과 후 각자 코드 리뷰 및 설명 진행
+
+## Week 39
+1. 1-3번문제 ( 필수문제 )
+ - [[Easy] 28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)
+ - [[Medium] 12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/)
+ - [[Medium] 31. Next Permutation](https://leetcode.com/problems/next-permutation/)
 ## Week 38
 1. 1-3번문제 ( 필수문제 )
  - [[Easy] 35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) - 풀어본 문제 ( week19 )
