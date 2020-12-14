@@ -12,6 +12,12 @@
  - 현장에서 그주 진행한 주제에 맞는 새로운 Medium 문제 하나 풀어보기.
   > 시간제한 엄수. 제한시간 초과 후 각자 코드 리뷰 및 설명 진행
 
+## Week 40
+1. 1-3번문제 ( 필수문제 )
+ - [[Easy] 38. Count and Say](https://leetcode.com/problems/count-and-say/)
+ - [[Medium] 39. Combination Sum](https://leetcode.com/problems/combination-sum/)
+ - [[Medium] 46. Permutation](https://leetcode.com/problems/permutations/)
+
 ## Week 39
 1. 1-3번문제 ( 필수문제 )
  - [[Easy] 28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)
