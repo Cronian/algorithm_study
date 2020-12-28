@@ -12,6 +12,14 @@
  - 현장에서 그주 진행한 주제에 맞는 새로운 Medium 문제 하나 풀어보기.
   > 시간제한 엄수. 제한시간 초과 후 각자 코드 리뷰 및 설명 진행
 
+## Week 42
+1. 1-3번문제 ( 필수문제 )
+ - [[Easy] 83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+ - [[Medium] 80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
+ - [[Medium] 82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
+2. 숙제
+ - [[Level1] 체육복](https://programmers.co.kr/learn/courses/30/lessons/42862)
+
 ## Week 41
 1. 1-2번문제 ( 필수문제 )
  - [[Easy] 559. Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)
