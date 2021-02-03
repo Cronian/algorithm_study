@@ -12,6 +12,14 @@
  - 현장에서 그주 진행한 주제에 맞는 새로운 Medium 문제 하나 풀어보기.
   > 시간제한 엄수. 제한시간 초과 후 각자 코드 리뷰 및 설명 진행
 
+## Week 46
+1. 1-2번문제 ( 필수문제 )
+ - [[Easy] 746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
+ - [[Medium] 1262. Greatest Sum Divisible by Three](https://leetcode.com/problems/greatest-sum-divisible-by-three/)
+ 
+2. 3번문제 (선택문제)
+ - [[Hard] 1406. Stone Game III](https://leetcode.com/problems/stone-game-iii/)
+
 ## Week 43
 1. 1-3번문제 ( 필수문제 )
  - [[Easy] 1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)
