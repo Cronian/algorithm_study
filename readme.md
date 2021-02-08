@@ -14,11 +14,22 @@
 
 ## Week 46
 1. 1-2번문제 ( 필수문제 )
+ - [[Easy] 1047. Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
+ - [[Medium] 921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)
+2. 3번문제 ( 선택문제 )
+ - [[Hard] 1703. Minimum Adjacent Swaps for K Consecutive Ones](https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/)
+
+## Week 45
+1. 1-2번문제 ( 필수문제 )
  - [[Easy] 746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
  - [[Medium] 1262. Greatest Sum Divisible by Three](https://leetcode.com/problems/greatest-sum-divisible-by-three/)
  
-2. 3번문제 (선택문제)
+2. 3번문제 ( 선택문제 )
  - [[Hard] 1406. Stone Game III](https://leetcode.com/problems/stone-game-iii/)
+ 
+## Week 44
+1. 1-2번문제 ( 필수문제 )
+
 
 ## Week 43
 1. 1-3번문제 ( 필수문제 )
