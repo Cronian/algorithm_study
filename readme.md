@@ -29,7 +29,8 @@
  
 ## Week 44
 1. 1-2번문제 ( 필수문제 )
-
+ - [[Medium] 1171. Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)
+ - [[Medium] 328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
 
 ## Week 43
 1. 1-3번문제 ( 필수문제 )
