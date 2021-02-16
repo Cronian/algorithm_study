@@ -12,6 +12,12 @@
  - 현장에서 그주 진행한 주제에 맞는 새로운 Medium 문제 하나 풀어보기.
   > 시간제한 엄수. 제한시간 초과 후 각자 코드 리뷰 및 설명 진행
 
+## Week 47
+1. 1-2번문제 ( 필수문제 )
+ - [[Easy] 1385. Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
+ - [[Medium] 1357. Apply Discount Every n Orders](https://leetcode.com/problems/apply-discount-every-n-orders/)
+ - [[Level2] 프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)
+
 ## Week 46
 1. 1-2번문제 ( 필수문제 )
  - [[Easy] 1047. Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
