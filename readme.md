@@ -12,6 +12,13 @@
  - 현장에서 그주 진행한 주제에 맞는 새로운 Medium 문제 하나 풀어보기.
   > 시간제한 엄수. 제한시간 초과 후 각자 코드 리뷰 및 설명 진행
 
+## Week 48
+1. 1-2번문제 ( 필수문제 )
+ - [[Easy] 1356. Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/)
+ - [[Medium] 979. Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)
+2. 3번문제 ( 도전문제 )
+ - [[Hard] 1255. Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/)
+
 ## Week 47
 1. 1-2번문제 ( 필수문제 )
  - [[Easy] 1385. Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
