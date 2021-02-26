@@ -1,12 +1,21 @@
 
 ## 알고리즘 스터디
 1. 모임시간 
- - ~( 매주 월요일 19시 20분 - 21시 // 장소 : 투썸플레이스 구로디지털단지역점 )~ 코로나로 인해 구글Meet로 대체중
+ - 구글Meet / 매주 화요일 ( 고정시간 오후 9시 )
 2. 스터디 내용
+ - 매주 돌아가면서 한명씩 자료구조에 대한 발표 진행 ( 약 10분 )
  - 매주 출제되는 필수문제 풀어오기
   - 문제풀기 이후 최적코드와 비교한 후 리팩토링 해보기.
  - 여유가 된다면 도전문제 풀어보기
- - 현장에서 약 10 - 15분 정도의 시간제한으로 문제 풀어보기
+ - 현장에서 약 10 - 15분 정도의 시간제한으로 문제 풀어본 후 코드리뷰
+
+
+## Week 49
+1. 1-2번문제 ( 필수문제 )
+ - [[Easy] 111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) [ 15주차에 풀었던 것 ]
+ - [[Medium] 994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
+2. 3번문제 ( 도전문제 )
+ - [[Hard] 815. Bus Routes](https://leetcode.com/problems/bus-routes/)
 
 ## Week 48
 1. 1-2번문제 ( 필수문제 )
