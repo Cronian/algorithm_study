@@ -10,6 +10,13 @@
  - 현장에서 약 10 - 15분 정도의 시간제한으로 문제 풀어본 후 코드리뷰
 
 
+## Week 50
+1. 1-2번문제 ( 필수문제 )
+ - [[Easy] 53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)  [22주차에 풀었던 것]
+ - [[Medium] 873. Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/)
+2. 3번문제 ( 도전문제 )
+ - [[Hard] 44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
+
 ## Week 49
 1. 1-2번문제 ( 필수문제 )
  - [[Easy] 111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) [ 15주차에 풀었던 것 ]
