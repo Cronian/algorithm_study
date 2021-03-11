@@ -9,6 +9,13 @@
  - 여유가 된다면 도전문제 풀어보기
  - 현장에서 약 10 - 15분 정도의 시간제한으로 문제 풀어본 후 코드리뷰
 
+## Week 51
+1. 1-2번문제 ( 필수문제 )
+ - [[Medium] 209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
+ - [[Medium] 567. Permutation in String](https://leetcode.com/problems/permutation-in-string/)
+2. 3번문제 ( 도전문제 )
+ - [[Hard] 480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)
+
 
 ## Week 50
 1. 1-2번문제 ( 필수문제 )
