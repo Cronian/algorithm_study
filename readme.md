@@ -15,6 +15,7 @@
  - [[Medium] 567. Permutation in String](https://leetcode.com/problems/permutation-in-string/)
 2. 3번문제 ( 도전문제 )
  - [[Hard] 480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)
+3. Stack / Queue < BFS / DFP에 대해 > #2
 
 
 ## Week 50
@@ -23,6 +24,7 @@
  - [[Medium] 873. Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/)
 2. 3번문제 ( 도전문제 )
  - [[Hard] 44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
+3. Tree #1
 
 ## Week 49
 1. 1-2번문제 ( 필수문제 )
@@ -30,6 +32,7 @@
  - [[Medium] 994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
 2. 3번문제 ( 도전문제 )
  - [[Hard] 815. Bus Routes](https://leetcode.com/problems/bus-routes/)
+3. 
 
 ## Week 48
 1. 1-2번문제 ( 필수문제 )
@@ -37,6 +40,7 @@
  - [[Medium] 979. Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)
 2. 3번문제 ( 도전문제 )
  - [[Hard] 1255. Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/)
+3. Stack / Queue < 기본 형태 > #1
 
 ## Week 47
 1. 1-2번문제 ( 필수문제 )
