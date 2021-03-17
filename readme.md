@@ -32,7 +32,7 @@
  - [[Medium] 994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
 2. 3번문제 ( 도전문제 )
  - [[Hard] 815. Bus Routes](https://leetcode.com/problems/bus-routes/)
-3. 
+3. LinkedList 에 대해서
 
 ## Week 48
 1. 1-2번문제 ( 필수문제 )
