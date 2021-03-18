@@ -9,6 +9,11 @@
  - 여유가 된다면 도전문제 풀어보기
  - 현장에서 약 10 - 15분 정도의 시간제한으로 문제 풀어본 후 코드리뷰
 
+## Week 52
+1. 1-2번문제 ( 필수문제 )
+ - [[Medium] 547. Number of Provinces](https://leetcode.com/problems/number-of-provinces)
+ - [[Hard] 765. Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands) 
+
 ## Week 51
 1. 1-2번문제 ( 필수문제 )
  - [[Medium] 209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
