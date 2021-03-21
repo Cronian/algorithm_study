@@ -13,7 +13,7 @@
 1. 1-2번문제 ( 필수문제 )
  - [[Medium] 547. Number of Provinces](https://leetcode.com/problems/number-of-provinces)
  - [[Hard] 765. Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands) 
-
+2. 재귀 함수 / https://medium.com/@sunnkis/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B5%AC%EC%A1%B0-%EC%9E%AC%EA%B7%80-8d96633be4cd , https://lktprogrammer.tistory.com/106
 ## Week 51
 1. 1-2번문제 ( 필수문제 )
  - [[Medium] 209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
