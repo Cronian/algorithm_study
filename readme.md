@@ -9,7 +9,14 @@
  - 여유가 된다면 도전문제 풀어보기
  - 현장에서 약 10 - 15분 정도의 시간제한으로 문제 풀어본 후 코드리뷰
 
-## Week 52
+## Week 53
+1. 1-2번문제 ( 필수문제 )
+ - [[Easy] 830. Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/)
+ - [[Medium] 378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+ - [[Medium] 658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)
+2. 재귀 함수 / https://medium.com/@sunnkis/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B5%AC%EC%A1%B0-%EC%9E%AC%EA%B7%80-8d96633be4cd , https://lktprogrammer.tistory.com/106
+
+## _Week 52_
 1. 1-2번문제 ( 필수문제 )
  - [[Medium] 547. Number of Provinces](https://leetcode.com/problems/number-of-provinces)
  - [[Hard] 765. Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands) 
