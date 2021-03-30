@@ -10,6 +10,12 @@
  - 여유가 된다면 도전문제 풀어보기
  - 현장에서 약 10 - 15분 정도의 시간제한으로 문제 풀어본 후 코드리뷰
 
+## Week 54
+1. 1번문제 ( 필수문제 )
+ - [[Medium] 17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+2. 2번문제 ( 도전문제 )
+ - [[Hard] 23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+
 ## Week 53
 1. 1-2번문제 ( 필수문제 )
  - [[Easy] 830. Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/)
