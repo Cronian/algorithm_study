@@ -10,6 +10,17 @@
  - 여유가 된다면 도전문제 풀어보기
  - 현장에서 약 10 - 15분 정도의 시간제한으로 문제 풀어본 후 코드리뷰
 
+
+## Week 55
+1. 1-2번 문제( 필수문제 )
+ - [[Easy] 283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)
+ - [[Medium] 74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
+2. 3번 문제 ( 도전문제 )
+ - [[Hard] 218. The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)
+3. 프로그래머스 문제
+ - 더 맵게(https://programmers.co.kr/learn/courses/30/lessons/42626)
+
+
 ## Week 54
 1. 1번문제 ( 필수문제 )
  - [[Medium] 17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
