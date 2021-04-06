@@ -18,7 +18,7 @@
 2. 3번 문제 ( 도전문제 )
  - [[Hard] 218. The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)
 3. 프로그래머스 문제
- - 더 맵게(https://programmers.co.kr/learn/courses/30/lessons/42626)
+ - [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)
 
 
 ## Week 54
