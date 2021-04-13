@@ -13,7 +13,7 @@
 
 ## Week 56
 1. 1-2번 문제 ( 필수문제 )
- - [[Easy] 101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) [풀어본 문제]
+ - [[Easy] 101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
  - [[Medium] 55. Jump Game](https://leetcode.com/problems/jump-game/) [풀어본 문제]
 2. 3번 문제 ( 도전문제 )
  - [[Hard] 140. Word Break II](https://leetcode.com/problems/word-break-ii/)
