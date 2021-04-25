@@ -10,15 +10,21 @@
  - 여유가 된다면 도전문제 풀어보기
  - 현장에서 약 10 - 15분 정도의 시간제한으로 문제 풀어본 후 코드리뷰
 
+## Week 57 ( 미뤄짐 )
+1. 1-2번 문제 ( 필수문제 )
+ - [[Easy] 693. Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)
+ - [[Medium] 838. Push Dominoes](https://leetcode.com/problems/push-dominoes/)
+2. 3번 문제 ( 도전문제 )
+ - [[Hard] 679. 24 Game](https://leetcode.com/problems/24-game/)
 
-## Week 56
+## Week 56  ( 미뤄짐 )
 1. 1-2번 문제 ( 필수문제 )
  - [[Easy] 101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
  - [[Medium] 55. Jump Game](https://leetcode.com/problems/jump-game/) [풀어본 문제]
 2. 3번 문제 ( 도전문제 )
  - [[Hard] 140. Word Break II](https://leetcode.com/problems/word-break-ii/)
 
-## Week 55 ( 미뤄짐)
+## Week 55 ( 미뤄짐 )
 1. 1-2번 문제( 필수문제 )
  - [[Easy] 283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)
  - [[Medium] 74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
