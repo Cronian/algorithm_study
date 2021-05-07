@@ -10,6 +10,13 @@
  - 여유가 된다면 도전문제 풀어보기
  - 현장에서 약 10 - 15분 정도의 시간제한으로 문제 풀어본 후 코드리뷰
 
+## Week 59 ( 미뤄짐 ) 
+1. 1-2번 문제 ( 필수문제 )
+ - [[Easy] 617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)
+ - [[Medium] 48. Rotate Image](https://leetcode.com/problems/rotate-image/)
+2. 3번 문제 ( 도전문제 )
+ - [[Hard] 1569. Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/)
+ 
 ## Week 58 ( 미뤄짐 )
 1. 1-2번 문제 ( 필수문제 )
  - [[Easy] 700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
