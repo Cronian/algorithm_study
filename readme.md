@@ -11,6 +11,9 @@
  - 여유가 된다면 도전문제 풀어보기
  - 현장에서 약 10 - 15분 정도의 시간제한으로 문제 풀어본 후 코드리뷰
 ## Week 60
+1. 1-2번 문제 ( 필수문제 )
+ - [[Easy] 1207 Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)
+ - [[Medium] 621. Task Scheduler](https://leetcode.com/problems/task-scheduler/)
 
 ## Week 59 ( 미뤄짐 ) 
 1. 1-2번 문제 ( 필수문제 )
