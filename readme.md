@@ -10,6 +10,7 @@
   - 문제풀기 이후 최적코드와 비교한 후 리팩토링 해보기.
  - 여유가 된다면 도전문제 풀어보기
  - 현장에서 약 10 - 15분 정도의 시간제한으로 문제 풀어본 후 코드리뷰
+## Week 61
 ## Week 60
 1. 1-2번 문제 ( 필수문제 )
  - [[Easy] 1207 Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) [ 11주차 푼문제 ]
