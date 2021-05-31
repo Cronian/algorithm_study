@@ -11,6 +11,7 @@
  - 여유가 된다면 도전문제 풀어보기
  - 현장에서 약 10 - 15분 정도의 시간제한으로 문제 풀어본 후 코드리뷰
 ## Week 61
+1. 1-2번 문제 ( 필수문제 )
  - [[Easy] 1365. How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)
  - [[Medium] 355. Design Twitter](https://leetcode.com/problems/design-twitter/)
 ## Week 60
