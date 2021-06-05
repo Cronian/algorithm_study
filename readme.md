@@ -13,6 +13,7 @@
 
 ## Week 62 
 1. 1-2번 문제 ( 필수문제 )
+
 ## Week 61
 1. 1-2번 문제 ( 필수문제 )
  - [[Easy] 1365. How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)
