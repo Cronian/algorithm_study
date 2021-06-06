@@ -13,6 +13,8 @@
 
 ## Week 62 
 1. 1-2번 문제 ( 필수문제 )
+ - [[Easy] 169. Majority Element](https://leetcode.com/problems/majority-element/description/)
+ - [[Medium] 134. Gas Station](https://leetcode.com/problems/gas-station/description/)
 
 ## Week 61
 1. 1-2번 문제 ( 필수문제 )
