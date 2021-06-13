@@ -10,7 +10,9 @@
  - 여유가 된다면 도전문제 풀어보기
  - 현장에서 약 10 - 15분 정도의 시간제한으로 문제 풀어본 후 코드리뷰
 ## Week 63
-_
+1. 1-2번 문제 ( 필수문제 )
+ - [[Easy] 235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+ - [[Medium] 146. LRU Cache](https://leetcode.com/problems/lru-cache/)
 
 ## Week 62 
 1. 1-2번 문제 ( 필수문제 )
