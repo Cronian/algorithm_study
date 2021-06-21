@@ -10,6 +10,9 @@
  - 여유가 된다면 도전문제 풀어보기
  - 현장에서 약 10 - 15분 정도의 시간제한으로 문제 풀어본 후 코드리뷰
 ## Week 64
+1. 1-2번 문제 ( 필수문제 )
+ - [[Easy] 168. Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)
+ - [[Medium] 665. Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)
 ## Week 63
 1. 1-2번 문제 ( 필수문제 )
  - [[Easy] 235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
