@@ -9,6 +9,14 @@
   - 문제풀기 이후 최적코드와 비교한 후 리팩토링 해보기.
  - 여유가 된다면 도전문제 풀어보기
  - 현장에서 약 10 - 15분 정도의 시간제한으로 문제 풀어본 후 코드리뷰
+코드리뷰
+## Week 66
+1. 1-2번 문제 ( 필수문제 )
+ - [[Easy] 155. Min Stack](https://leetcode.com/problems/min-stack/description/)
+ - [[Medium] 43. Multiply Strings](https://leetcode.com/problems/multiply-strings/description/)
+2. 도전문제 ( 선택문제 )
+ ~ [[Hard] 10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/)
+
 ## Week 65
 1. 1-2번 문제 ( 필수문제 )
  - [[Easy] 20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
