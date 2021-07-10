@@ -9,6 +9,7 @@
   - 문제풀기 이후 최적코드와 비교한 후 리팩토링 해보기.
  - 여유가 된다면 도전문제 풀어보기
  - 현장에서 약 10 - 15분 정도의 시간제한으로 문제 풀어본 후 코드리뷰
+## Week 68
 ## Week 67
  - [[Easy] 326. Power of Three](https://leetcode.com/problems/power-of-three/)
  - [[Medium] 62. Unique Paths](https://leetcode.com/problems/unique-paths/)
