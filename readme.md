@@ -13,6 +13,7 @@
 ## Week 67
  - [[Easy] 326. Power of Three](https://leetcode.com/problems/power-of-three/)
  - [[Medium] 62. Unique Paths](https://leetcode.com/problems/unique-paths/)
+ 3. 발표내용 [ 탐욕 알고리즘 ]
 ## Week 66
 1. 1-2번 문제 ( 필수문제 )
  - [[Easy] 155. Min Stack](https://leetcode.com/problems/min-stack/description/)
