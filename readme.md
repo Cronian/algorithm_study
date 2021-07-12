@@ -10,8 +10,11 @@
  - 여유가 된다면 도전문제 풀어보기
  - 현장에서 약 10 - 15분 정도의 시간제한으로 문제 풀어본 후 코드리뷰
 ## Week 68
+1. 1-2번 문제 ( 필수문제 )
  - [[Easy] 344. Reverse String](https://leetcode.com/problems/reverse-string/)
  - [[Medium] 86. Partition List](https://leetcode.com/problems/partition-list/)
+2. 발표내용 [ 개발관련 자유주재 / 오연경 ]
+
 ## Week 67
  - [[Easy] 326. Power of Three](https://leetcode.com/problems/power-of-three/)
  - [[Medium] 62. Unique Paths](https://leetcode.com/problems/unique-paths/)
