@@ -10,6 +10,12 @@
  - 여유가 된다면 도전문제 풀어보기
  - 현장에서 약 10 - 15분 정도의 시간제한으로 문제 풀어본 후 코드리뷰
 
+## Week 70
+1. 1-2번 문제 ( 필수문제 )
+ - [[Easy] 367. Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)
+ - [[Medium] 54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
+2. 발표내용 [ 개발관련 자유주제 / 한진웅 ]
+
 ## Week 69
 1. 1-2번 문제 ( 필수문제 )
  - [[Easy] 383. Ransom Note](https://leetcode.com/problems/ransom-note/)
