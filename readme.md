@@ -14,7 +14,7 @@
 1. 1-2번 문제 ( 필수문제 )
  - [[Easy] 367. Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)
  - [[Medium] 54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
-2. 발표내용 [ 개발관련 자유주제 / 한진웅 ]
+2. 발표내용 [ 함수형 프로그래밍 / 한진웅 ]
 
 ## Week 69
 1. 1-2번 문제 ( 필수문제 )
