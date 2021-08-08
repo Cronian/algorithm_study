@@ -15,7 +15,7 @@
  - [[Easy] 409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
  - [[Medium] 241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)
 2. [[프로그래머스 위클리 챌린지] 부족한 금액 계산하기](https://programmers.co.kr/learn/courses/30/lessons/82612)
-3. 발표내용 [ 함수형 프로그래밍 / 한진웅 ]
+3. 발표내용 [ DB 인덱스 / 한진웅 ]
 
 ## Week 70
 1. 1-2번 문제 ( 필수문제 )
