@@ -10,6 +10,18 @@
  - 여유가 된다면 도전문제 풀어보기
  - 현장에서 약 10 - 15분 정도의 시간제한으로 문제 풀어본 후 코드리뷰
 
+## Week 72
+1. 1-2번 문제 ( 필수문제 )
+ - [[Easy]441. Arranging Coins](https://leetcode.com/problems/arranging-coins/)
+ - [[Medium]162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+2. 도전문제 ( 선택문제 )
+ - [[Hard]352. Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)
+3. 숙제 ( 지난주 밀린것 )
+ - [[Easy] 367. Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) [ 다시풀기. 내장함수 없이! ]
+ - [[Medium] 241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) [ 못풀었으니 다시한번! ]
+4. 프로그래머스 위클리 챌린지
+ - [상호 평가](https://programmers.co.kr/learn/courses/30/lessons/83201)
+
 ## Week 71
 1. 1-2번 문제 ( 필수문제 )
  - [[Easy] 409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
