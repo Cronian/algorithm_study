@@ -22,6 +22,7 @@
  - [[Medium] 241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) [ 못풀었으니 다시한번! ]
 4. 프로그래머스 위클리 챌린지
  - [상호 평가](https://programmers.co.kr/learn/courses/30/lessons/83201)
+5. 발표내용 [ DB 인덱스 / 한진웅 ]
 
 ## Week 71
 1. 1-2번 문제 ( 필수문제 )
