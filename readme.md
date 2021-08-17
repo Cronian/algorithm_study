@@ -11,6 +11,14 @@
  - 현장에서 약 10 - 15분 정도의 시간제한으로 문제 풀어본 후 코드리뷰
  - 프로그래머스 위클리 챌린지 추가
 
+## Week 73
+1. 1-2번 문제 ( 필수문제 )
+ - [[Easy] 706. Design HashMap](https://leetcode.com/problems/design-hashmap/)
+ - [[Medium] 307. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
+2. [[프로그래머스 위클리 챌린지] 퍼즐 조각 채우기](https://programmers.co.kr/learn/courses/30/lessons/84021)
+3. 발표내용 [ 자유주제 / 노종훈 ]
+
+
 ## Week 72
 1. 1-2번 문제 ( 필수문제 )
  - [[Easy]441. Arranging Coins](https://leetcode.com/problems/arranging-coins/)
