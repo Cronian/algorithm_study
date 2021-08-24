@@ -14,9 +14,9 @@ class MyHashMap {
     // MyHashMap() : empty Map으로 생성.
     public MyHashMap() {
         // initiallize
-        this.size = 1000;
         // 1000을 한 이유 : 조건에 많아봐야 1000번 콜한다고 하였음. put을 1000번 할 경우도 있으니 1000까지
-        this.HashMap = new ArrayList[1000];
+        this.size = 1000;
+        this.HashMap = new ArrayList[size];
     }
 
     // void put() : 키와 쌍으로 HashMap에 insert.
@@ -43,10 +43,7 @@ class MyHashMap {
                     return;
                 }
             }
-            // 기존에 put한 요소를 remove한 경우 null이 아닌 []로 남기 때문에 위에 for문을 타지 않아서 요소 추가가 안된다.
-//            if(this.HashMap[index].size() < 1) {
-                this.HashMap[index].add(new Node(key, value));
-//            }
+            this.HashMap[index].add(new Node(key, value));
         }
     }
     // int get() : key가 존재하지 않을 경우 -1, key가 존재할 경우 value return
