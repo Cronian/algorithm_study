@@ -11,6 +11,13 @@
  - 현장에서 약 10 - 15분 정도의 시간제한으로 문제 풀어본 후 코드리뷰
  - 프로그래머스 위클리 챌린지 추가
 
+## Week 74
+1. 1-2번 문제 ( 필수문제 )
+ - [[Easy] 141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+ - [[Medium] 97. Interleaving String](https://leetcode.com/problems/interleaving-string/)
+2. [[프로그래머스 위클리 챌린지] 직업군 추천하기](https://programmers.co.kr/learn/courses/30/lessons/84325)
+3. 발표내용 [ 자유주제 / 노종훈 ]
+
 ## Week 73
 1. 1-2번 문제 ( 필수문제 )
  - [[Easy] 706. Design HashMap](https://leetcode.com/problems/design-hashmap/)
