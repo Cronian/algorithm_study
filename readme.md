@@ -12,7 +12,7 @@
  - 프로그래머스 위클리 챌린지 추가
  - 
 ## Week 75
-1. 1-2번 문제 ( 필수문제 )
+1. 1-2번 문제 ( 필수문제 + 숙제 )
  - [[Easy] 1588. Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)
  - [[Easy] 190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)
  - [[Medium] 78. Subsets](https://leetcode.com/problems/subsets/)
