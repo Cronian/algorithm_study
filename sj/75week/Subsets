@@ -1,0 +1,21 @@
+/**
+ * @param {number[]} nums
+ * @return {number[][]}
+ */
+var subsets = function(nums) {
+    let res = [[]]
+	for (let i = 0; i < nums.length; i++) {
+		res.forEach(item => {
+            // console.log(item ,nums[i],i )
+            /*
+                i=0 1번
+                [], [1] => res로 반환
+                i=1 일때
+                res =>[] [1]
+                [][2] [1][2]
+            */
+			res.push([...item, nums[i]])
+		})
+	}
+	return res
+};
