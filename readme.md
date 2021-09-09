@@ -10,6 +10,16 @@
  - 여유가 된다면 도전문제 풀어보기
  - 현장에서 약 10 - 15분 정도의 시간제한으로 문제 풀어본 후 코드리뷰
  - 프로그래머스 위클리 챌린지 추가
+
+## Week 76
+1. 1-2번 문제 ( 필수문제 )
+ - [[Easy] 746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
+ - [[Medium] 396. Rotate Function](https://leetcode.com/problems/rotate-function/)
+2. 도전문제 ( 선택문제 )
+ - [[Hard] 123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)
+3. [[프로그래머스 위클리 챌린지] 복서 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/85002)
+4. 발표내용 [ 자유주제 / 정선재 ]
+
 ## Week 75
 1. 1-2번 문제 ( 필수문제 + 숙제 )
  - [[Easy] 1588. Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)
