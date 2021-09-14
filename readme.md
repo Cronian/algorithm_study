@@ -11,6 +11,16 @@
  - 현장에서 약 10 - 15분 정도의 시간제한으로 문제 풀어본 후 코드리뷰
  - 프로그래머스 위클리 챌린지 추가
 
+## Week 77
+1. 1-2번 문제 ( 필수문제 )
+ - [[Easy] 953. Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)
+ - [[Medium] 396. Rotate Function 한번더 풀어보기](https://leetcode.com/problems/rotate-function/)
+ - [[Medium] 310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)
+2. 도전문제 ( 선택문제 )
+ - [[Hard] 295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
+3. [[프로그래머스 위클리 챌린지] 입실퇴실](https://programmers.co.kr/learn/courses/30/lessons/86048)
+4. 발표내용 [ 자유주제 / 한진웅 ]
+
 ## Week 76
 1. 1-2번 문제 ( 필수문제 )
  - [[Easy] 746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
