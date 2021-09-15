@@ -19,7 +19,7 @@
 2. 도전문제 ( 선택문제 )
  - [[Hard] 295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
 3. [[프로그래머스 위클리 챌린지] 입실퇴실](https://programmers.co.kr/learn/courses/30/lessons/86048)
-4. 발표내용 [ 자유주제 / 한진웅 ]
+4. 발표내용 [ REST API / 한진웅 ]
 
 ## Week 76
 1. 1-2번 문제 ( 필수문제 )
