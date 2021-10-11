@@ -11,6 +11,15 @@
  - 현장에서 약 10 - 15분 정도의 시간제한으로 문제 풀어본 후 코드리뷰
  - 프로그래머스 위클리 챌린지 추가
 
+## Week 79
+1. 1-2번 문제 ( 필수문제 )
+ - [[Easy] 118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
+ - [[Medium] 96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)
+2. 도전문제 ( 선택문제 )
+ - [[Hard] 282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)
+4. 발표내용 [ 자유주제 / 한진웅 ]
+
+
 ## Week 77 & 78 [연기됨]
 1. 1-2번 문제 ( 필수문제 )
  - [[Easy] 953. Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)
